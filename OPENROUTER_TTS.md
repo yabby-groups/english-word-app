@@ -4,7 +4,7 @@ The app can use OpenRouter's OpenAI-compatible TTS endpoint for English word and
 
 Set this server-side variable before starting `server.js`:
 
-```powershell
+```sh
 $env:OPENROUTER_API_KEY='your-openrouter-api-key'
 node server.js
 ```
@@ -17,11 +17,11 @@ OPENROUTER_API_KEY=your-openrouter-api-key
 
 Optional:
 
-```powershell
+```sh
 $env:OPENROUTER_TTS_MODEL='openai/gpt-4o-mini-tts-2025-12-15'
 $env:OPENROUTER_BASE_URL='https://openrouter.ai/api/v1'
 $env:OPENROUTER_SITE_URL='http://127.0.0.1'
 $env:OPENROUTER_APP_NAME='Word Garden'
 ```
 
-Generated OpenRouter audio is cached under `audio/openrouter-*`. Existing local Windows TTS remains available as the fallback option.
+Generated OpenRouter audio is cached under `audio/openrouter-*`. Piper remains available for requests that use local TTS.

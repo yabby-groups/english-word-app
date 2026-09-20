@@ -1,37 +1,59 @@
-import { execFile } from 'node:child_process';
-import { promisify } from 'node:util';
+import { spawn } from 'node:child_process';
+import { existsSync, mkdtempSync, readFileSync, rmSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 
-const execFileAsync = promisify(execFile);
-const SCRIPT = `
-Add-Type -AssemblyName System.Speech
-$speaker = New-Object System.Speech.Synthesis.SpeechSynthesizer
-$english = $speaker.GetInstalledVoices() | Where-Object { $_.Enabled -and $_.VoiceInfo.Culture.Name -like 'en-*' } | Select-Object -First 1
-if ($english) { $speaker.SelectVoice($english.VoiceInfo.Name) }
-$speaker.Rate = [Math]::Max(-5, [Math]::Min(5, [int]$env:PRACTICE_TTS_RATE))
-$stream = New-Object IO.MemoryStream
-$speaker.SetOutputToWaveStream($stream)
-$speaker.Speak($env:PRACTICE_TTS_TEXT)
-$speaker.Dispose()
-[Convert]::ToBase64String($stream.ToArray())
-`;
-const ENCODED_SCRIPT = Buffer.from(SCRIPT, 'utf16le').toString('base64');
-
-export function sapiRate(playbackRate) {
+export function piperLengthScale(playbackRate) {
   const value = Number(playbackRate);
-  if (!Number.isFinite(value)) return 0;
-  return Math.max(-5, Math.min(5, Math.round((value - 1) * 7)));
+  if (!Number.isFinite(value) || value <= 0) return 1;
+  return Math.max(0.5, Math.min(2, 1 / value));
 }
 
 export async function synthesizeLocalEnglish(text, playbackRate = 1) {
   const normalized = String(text || '').trim().slice(0, 1800);
   if (!normalized) throw new Error('Practice text is required.');
-  const { stdout } = await execFileAsync('powershell.exe', ['-NoProfile', '-NonInteractive', '-EncodedCommand', ENCODED_SCRIPT], {
-    env: { ...process.env, PRACTICE_TTS_TEXT: normalized, PRACTICE_TTS_RATE: String(sapiRate(playbackRate)) },
-    timeout: 10000,
-    maxBuffer: 8 * 1024 * 1024,
-    windowsHide: true,
+  const binary = process.env.PIPER_BIN || '';
+  const model = process.env.PIPER_VOICE_EN || process.env.PIPER_VOICE || '';
+  const config = process.env.PIPER_CONFIG_EN || process.env.PIPER_CONFIG || '';
+  if (!binary || !model || !existsSync(binary) || !existsSync(model)) {
+    throw new Error('Piper is not configured for English practice. Set PIPER_BIN and PIPER_VOICE_EN.');
+  }
+
+  const directory = mkdtempSync(join(tmpdir(), 'word-garden-piper-'));
+  const output = join(directory, 'reference.wav');
+  const args = ['--model', model, '--output_file', output, '--length_scale', String(piperLengthScale(playbackRate))];
+  if (config && existsSync(config)) args.push('--config', config);
+  return new Promise((resolve, reject) => {
+    const child = spawn(binary, args);
+    let stderr = '';
+    let settled = false;
+    const cleanup = () => rmSync(directory, { recursive: true, force: true });
+    const finish = (callback) => {
+      if (settled) return;
+      settled = true;
+      clearTimeout(timeout);
+      try {
+        callback();
+      } finally {
+        cleanup();
+      }
+    };
+    const timeout = setTimeout(() => {
+      child.kill();
+      finish(() => reject(new Error('Piper timed out after 10 seconds.')));
+    }, 10000);
+    child.stderr.on('data', (chunk) => { stderr += chunk.toString(); });
+    child.on('error', (error) => finish(() => reject(error)));
+    child.on('close', (code) => {
+      finish(() => {
+        const audio = code === 0 && existsSync(output) ? readFileSync(output) : null;
+        if (!audio || audio.subarray(0, 4).toString('ascii') !== 'RIFF') {
+          reject(new Error(stderr.trim() || `Piper exited with code ${code}.`));
+          return;
+        }
+        resolve({ audio: audio.toString('base64'), mimeType: 'audio/wav' });
+      });
+    });
+    child.stdin.end(`${normalized}\n`);
   });
-  const audio = stdout.trim();
-  if (!audio || Buffer.from(audio, 'base64').subarray(0, 4).toString('ascii') !== 'RIFF') throw new Error('Local English voice did not return valid WAV audio.');
-  return { audio, mimeType: 'audio/wav' };
 }

@@ -1,10 +1,10 @@
 .env
 .env*
+node_modules/
 .tmp
 file-storage
 *.wav
 *.log
 logs
-*.ps1
 *.cmd
 *.mp3

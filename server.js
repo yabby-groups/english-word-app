@@ -4,6 +4,7 @@ const https = require("https");
 const http = require("http");
 const path = require("path");
 const { spawn } = require("child_process");
+const archiver = require("archiver");
 
 const root = __dirname;
 loadEnvFile(path.join(root, ".env"));
@@ -57,7 +58,6 @@ const azureSpeechRegion = process.env.AZURE_SPEECH_REGION || process.env.SPEECH_
 const azureSpeechEndpoint = (process.env.AZURE_SPEECH_ENDPOINT || "").replace(/\/+$/, "");
 const azureTtsOutputFormat = process.env.AZURE_TTS_OUTPUT_FORMAT || "riff-24khz-16bit-mono-pcm";
 const azureTtsExtension = azureTtsOutputFormat.startsWith("riff-") ? "wav" : "mp3";
-const localTtsProvider = (process.env.LOCAL_TTS_PROVIDER || "auto").toLowerCase();
 const piperBin = process.env.PIPER_BIN || "";
 const piperVoiceEn = process.env.PIPER_VOICE_EN || process.env.PIPER_VOICE || "";
 const piperVoiceZh = process.env.PIPER_VOICE_ZH || "";
@@ -664,39 +664,14 @@ function zipDirectory(sourceDir, outputPath) {
   return new Promise((resolve, reject) => {
     fs.mkdirSync(path.dirname(outputPath), { recursive: true });
     if (fs.existsSync(outputPath)) fs.rmSync(outputPath, { force: true });
-    const scriptPath = path.join(tmpDir, `zip-workspace-${Date.now()}-${crypto.randomBytes(4).toString("hex")}.ps1`);
-    const script = [
-      "param([string]$source, [string]$dest)",
-      "$ErrorActionPreference = 'Stop'",
-      "if (Test-Path -LiteralPath $dest) { Remove-Item -LiteralPath $dest -Force }",
-      "Add-Type -AssemblyName System.IO.Compression.FileSystem",
-      "[System.IO.Compression.ZipFile]::CreateFromDirectory($source, $dest, [System.IO.Compression.CompressionLevel]::Optimal, $false, [System.Text.Encoding]::UTF8)"
-    ].join("\r\n");
-    fs.writeFileSync(scriptPath, script, "utf8");
-    const child = spawn("powershell.exe", [
-      "-NoProfile",
-      "-ExecutionPolicy",
-      "Bypass",
-      "-File",
-      scriptPath,
-      sourceDir,
-      outputPath
-    ], { windowsHide: true });
-    let stderr = "";
-    child.stderr.on("data", (chunk) => {
-      stderr += chunk.toString();
-    });
-    child.on("error", reject);
-    child.on("close", (code) => {
-      try {
-        if (fs.existsSync(scriptPath)) fs.rmSync(scriptPath, { force: true });
-      } catch {}
-      if (code === 0 && fs.existsSync(outputPath)) {
-        resolve(outputPath);
-        return;
-      }
-      reject(new Error(stderr.trim() || `Zip process failed with exit code ${code}.`));
-    });
+    const output = fs.createWriteStream(outputPath);
+    const archive = archiver("zip", { zlib: { level: 9 } });
+    output.on("close", () => resolve(outputPath));
+    output.on("error", reject);
+    archive.on("error", reject);
+    archive.pipe(output);
+    archive.directory(sourceDir, false);
+    archive.finalize();
   });
 }
 
@@ -1139,67 +1114,6 @@ async function handleSharedDownload(req, res) {
   }
 }
 
-function synthesizeWindows(text, lang) {
-  return new Promise((resolve, reject) => {
-    const startedAt = Date.now();
-    const normalized = text.replace(/\s+/g, " ").trim();
-    const estimateMs = estimateTtsMs(normalized);
-    const hash = crypto.createHash("sha1").update(`${lang}:${normalized}`).digest("hex").slice(0, 16);
-    const outputName = `reader-${hash}.wav`;
-    const outputPath = path.join(audioDir, outputName);
-    if (fs.existsSync(outputPath)) {
-      resolve({
-        audioUrl: `/audio/${outputName}`,
-        elapsedMs: 0,
-        estimateMs,
-        cached: true,
-        engine: "Windows System.Speech.Synthesis.SpeechSynthesizer",
-        voice: lang === "zh-CN" ? "Microsoft Huihui Desktop" : "Microsoft Zira Desktop"
-      });
-      return;
-    }
-
-    const textPath = path.join(tmpDir, `reader-${hash}.txt`);
-    fs.writeFileSync(textPath, normalized, "utf8");
-
-    const voice = lang === "zh-CN" ? "Microsoft Huihui Desktop" : "Microsoft Zira Desktop";
-    const script = path.join(root, "synthesize-text.ps1");
-    const child = spawn("powershell", [
-      "-NoProfile",
-      "-ExecutionPolicy",
-      "Bypass",
-      "-File",
-      script,
-      "-TextFile",
-      textPath,
-      "-OutFile",
-      outputPath,
-      "-Voice",
-      voice
-    ], { windowsHide: true });
-
-    let stderr = "";
-    child.stderr.on("data", (chunk) => {
-      stderr += chunk.toString();
-    });
-    child.on("error", reject);
-    child.on("close", (code) => {
-      if (code === 0 && fs.existsSync(outputPath)) {
-        resolve({
-          audioUrl: `/audio/${outputName}`,
-          elapsedMs: Date.now() - startedAt,
-          estimateMs,
-          cached: false,
-          engine: "Windows System.Speech.Synthesis.SpeechSynthesizer",
-          voice
-        });
-      } else {
-        reject(new Error(stderr || `TTS exited with code ${code}`));
-      }
-    });
-  });
-}
-
 function piperVoiceForLang(lang) {
   if (lang === "zh-CN") {
     return { model: piperVoiceZh, config: piperConfigZh };
@@ -1259,7 +1173,7 @@ function synthesizePiper(text, lang) {
     if (piperNoiseScale) args.push("--noise_scale", piperNoiseScale);
     if (piperNoiseW) args.push("--noise_w", piperNoiseW);
 
-    const child = spawn(piperBin, args, { windowsHide: true });
+    const child = spawn(piperBin, args);
     let stderr = "";
     child.stderr.on("data", (chunk) => {
       stderr += chunk.toString();
@@ -1284,16 +1198,10 @@ function synthesizePiper(text, lang) {
 }
 
 async function synthesizeLocal(text, lang, options = {}) {
-  const shouldTryPiper = options.provider === "piper" || localTtsProvider === "piper" || localTtsProvider === "auto";
-  if (shouldTryPiper && isPiperConfigured(lang)) {
-    try {
-      return await synthesizePiper(text, lang);
-    } catch (error) {
-      const fallback = await synthesizeWindows(text, lang);
-      return { ...fallback, fallbackFrom: `Piper TTS failed: ${error.message}` };
-    }
+  if (!isPiperConfigured(lang)) {
+    throw new Error(`Piper is not configured for ${lang}. Set PIPER_BIN and ${lang === "zh-CN" ? "PIPER_VOICE_ZH" : "PIPER_VOICE_EN"}.`);
   }
-  return synthesizeWindows(text, lang);
+  return synthesizePiper(text, lang);
 }
 
 function azureTtsUrl() {
@@ -1590,10 +1498,8 @@ async function handleTts(req, res) {
           ? "huabot"
           : payload.provider === "openrouter"
             ? "openrouter"
-            : payload.provider === "piper"
-              ? "piper"
-              : payload.provider === "windows"
-                ? "windows"
+              : payload.provider === "piper"
+                ? "piper"
                 : "local";
     if (!text) {
       send(res, 400, JSON.stringify({ error: "Missing text." }), { "Content-Type": "application/json" });
@@ -2197,7 +2103,6 @@ function startVoiceChatService() {
         WEB_SEARCH_MAX_RESULTS: process.env.WEB_SEARCH_MAX_RESULTS || "5",
         WEB_SEARCH_TIMEOUT_MS: process.env.WEB_SEARCH_TIMEOUT_MS || "10000"
       },
-      windowsHide: true,
       stdio: "ignore"
     });
     voiceChatProcess.on("error", (error) => console.error(`Unable to start voicechat: ${error.message}`));

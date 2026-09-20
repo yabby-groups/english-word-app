@@ -980,7 +980,7 @@ function loadVoices() {
   });
   const localOption = document.createElement("option");
   localOption.value = "__local__";
-  localOption.textContent = "本地离线声音 · Microsoft Zira/Huihui";
+  localOption.textContent = "本地离线声音 · 浏览器原生朗读";
   elements.voiceSelect.appendChild(localOption);
   if (!("speechSynthesis" in window)) {
     if (!selectedCloudPreset()) state.voiceName = "__local__";

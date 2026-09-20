@@ -48,11 +48,11 @@
   <h3>2.3 朗读与 TTS</h3>
   <ul>
     <li>支持本地离线音频播放。</li>
-    <li>支持 Windows 本地 TTS。</li>
+    <li>支持跨平台本地 Piper TTS。</li>
     <li>支持 OpenRouter/OpenAI 云端声音。</li>
     <li>短文朗读支持多级回退：云声音、本地 TTS、浏览器朗读。</li>
     <li>AI 例句页没有本地离线音频时，会通过 /api/tts 生成音频。</li>
-    <li>已新增 Piper TTS 支持方案：配置了 Piper 时优先使用 Piper，本地不可用时回退 Windows TTS。</li>
+    <li>本地 TTS 使用 Piper；未配置或不可用时返回明确配置错误。</li>
   </ul>
 
   <h3>2.4 短文朗读和难词学习</h3>
@@ -122,11 +122,10 @@
   <p>daily、school、travel、food、business、kids、exam、technology、health、finance、science、sports、culture、home、shopping、workplace、news。</p>
 
   <h2>5. Piper TTS 升级方案</h2>
-  <p>Piper 是轻量、开源、本地运行的神经 TTS，适合离线学习工具。相比 Windows 系统 TTS，它的声音通常更自然；相比云 TTS，它不依赖 Key，也不需要联网。</p>
-  <pre>LOCAL_TTS_PROVIDER=auto
-PIPER_BIN=C:\tmp\english-word-app\tools\piper\piper.exe
-PIPER_VOICE_EN=C:\tmp\english-word-app\voices\en_US-lessac-medium.onnx</pre>
-  <p>完整策略：云 TTS -> Piper -> Windows TTS -> 浏览器朗读。</p>
+  <p>Piper 是轻量、开源、本地运行的神经 TTS，适合离线学习工具。相比云 TTS，它不依赖 Key，也不需要联网。</p>
+  <pre>PIPER_BIN=/absolute/path/to/piper
+PIPER_VOICE_EN=/absolute/path/to/en_US-lessac-medium.onnx</pre>
+  <p>完整策略：云 TTS -> Piper；页面交互可使用浏览器原生朗读。</p>
 
   <h2>6. 墨水屏学生卡升级构想</h2>
   <h3>6.1 产品想法</h3>

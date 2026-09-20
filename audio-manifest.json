@@ -2,4566 +2,4566 @@
   {
     "file": "hello-word.wav",
     "text": "hello",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "hello-meaning.wav",
     "text": "你好",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "hello-sentence-1.wav",
     "text": "Hello, nice to meet you.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "hello-translation-1.wav",
     "text": "你好，很高兴认识你。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "hello-sentence-2.wav",
     "text": "I saw hello on my way home.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "hello-translation-2.wav",
     "text": "我回家路上看到了“你好”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "hello-sentence-3.wav",
     "text": "Can you use hello in a real sentence?",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "hello-translation-3.wav",
     "text": "你能用“你好”造一个真实句子吗？",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "breakfast-word.wav",
     "text": "breakfast",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "breakfast-meaning.wav",
     "text": "早餐",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "breakfast-sentence-1.wav",
     "text": "I usually have breakfast at seven.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "breakfast-translation-1.wav",
     "text": "我通常七点吃早餐。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "breakfast-sentence-2.wav",
     "text": "I saw breakfast on my way home.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "breakfast-translation-2.wav",
     "text": "我回家路上看到了“早餐”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "breakfast-sentence-3.wav",
     "text": "Can you use breakfast in a real sentence?",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "breakfast-translation-3.wav",
     "text": "你能用“早餐”造一个真实句子吗？",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "ticket-word.wav",
     "text": "ticket",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "ticket-meaning.wav",
     "text": "票；入场券",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "ticket-sentence-1.wav",
     "text": "Can I buy a ticket to London?",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "ticket-translation-1.wav",
     "text": "我可以买一张去伦敦的票吗？",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "ticket-sentence-2.wav",
     "text": "I asked about ticket at the hotel front desk.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "ticket-translation-2.wav",
     "text": "我在酒店前台询问了“票；入场券”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "ticket-sentence-3.wav",
     "text": "The travel app helped me find ticket quickly.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "ticket-translation-3.wav",
     "text": "旅行应用帮我很快找到和“票；入场券”有关的信息。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "menu-word.wav",
     "text": "menu",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "menu-meaning.wav",
     "text": "菜单",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "menu-sentence-1.wav",
     "text": "Could we see the menu, please?",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "menu-translation-1.wav",
     "text": "请给我们看一下菜单好吗？",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "menu-sentence-2.wav",
     "text": "I ordered menu for lunch today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "menu-translation-2.wav",
     "text": "我今天午餐点了“菜单”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "menu-sentence-3.wav",
     "text": "This restaurant serves fresh menu.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "menu-translation-3.wav",
     "text": "这家餐厅供应新鲜的“菜单”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "meeting-word.wav",
     "text": "meeting",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "meeting-meaning.wav",
     "text": "会议",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "meeting-sentence-1.wav",
     "text": "The meeting starts at nine o'clock.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "meeting-translation-1.wav",
     "text": "会议九点开始。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "meeting-sentence-2.wav",
     "text": "Please add meeting to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "meeting-translation-2.wav",
     "text": "请把“会议”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "meeting-sentence-3.wav",
     "text": "Our team discussed meeting before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "meeting-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“会议”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "homework-word.wav",
     "text": "homework",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "homework-meaning.wav",
     "text": "家庭作业",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "homework-sentence-1.wav",
     "text": "She finished her homework before dinner.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "homework-translation-1.wav",
     "text": "她在晚饭前完成了家庭作业。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "homework-sentence-2.wav",
     "text": "The teacher wrote homework on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "homework-translation-2.wav",
     "text": "老师把“家庭作业”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "homework-sentence-3.wav",
     "text": "I reviewed homework before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "homework-translation-3.wav",
     "text": "我上课前复习了“家庭作业”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "airport-word.wav",
     "text": "airport",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "airport-meaning.wav",
     "text": "机场",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "airport-sentence-1.wav",
     "text": "The airport is busy this morning.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "airport-translation-1.wav",
     "text": "今天早上机场很忙。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "airport-sentence-2.wav",
     "text": "I asked about airport at the hotel front desk.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "airport-translation-2.wav",
     "text": "我在酒店前台询问了“机场”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "airport-sentence-3.wav",
     "text": "The travel app helped me find airport quickly.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "airport-translation-3.wav",
     "text": "旅行应用帮我很快找到和“机场”有关的信息。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "vegetable-word.wav",
     "text": "vegetable",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "vegetable-meaning.wav",
     "text": "蔬菜",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "vegetable-sentence-1.wav",
     "text": "This soup has many fresh vegetables.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "vegetable-translation-1.wav",
     "text": "这汤里有很多新鲜蔬菜。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "vegetable-sentence-2.wav",
     "text": "I ordered vegetable for lunch today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "vegetable-translation-2.wav",
     "text": "我今天午餐点了“蔬菜”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "vegetable-sentence-3.wav",
     "text": "This restaurant serves fresh vegetable.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "vegetable-translation-3.wav",
     "text": "这家餐厅供应新鲜的“蔬菜”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "project-word.wav",
     "text": "project",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "project-meaning.wav",
     "text": "项目；课题",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "project-sentence-1.wav",
     "text": "Our team is working on a new project.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "project-translation-1.wav",
     "text": "我们的团队正在做一个新项目。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "project-sentence-2.wav",
     "text": "Please add project to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "project-translation-2.wav",
     "text": "请把“项目；课题”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "project-sentence-3.wav",
     "text": "Our team discussed project before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "project-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“项目；课题”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "direction-word.wav",
     "text": "direction",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "direction-meaning.wav",
     "text": "方向；指示",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "direction-sentence-1.wav",
     "text": "Could you tell me the direction to the hotel?",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "direction-translation-1.wav",
     "text": "你能告诉我去酒店的方向吗？",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "direction-sentence-2.wav",
     "text": "I asked about direction at the hotel front desk.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "direction-translation-2.wav",
     "text": "我在酒店前台询问了“方向；指示”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "direction-sentence-3.wav",
     "text": "The travel app helped me find direction quickly.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "direction-translation-3.wav",
     "text": "旅行应用帮我很快找到和“方向；指示”有关的信息。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "presentation-word.wav",
     "text": "presentation",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "presentation-meaning.wav",
     "text": "演示；报告",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "presentation-sentence-1.wav",
     "text": "He gave a short presentation about sales.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "presentation-translation-1.wav",
     "text": "他做了一个关于销售的简短报告。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "presentation-sentence-2.wav",
     "text": "Please add presentation to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "presentation-translation-2.wav",
     "text": "请把“演示；报告”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "presentation-sentence-3.wav",
     "text": "Our team discussed presentation before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "presentation-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“演示；报告”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "passport-word.wav",
     "text": "passport",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "passport-meaning.wav",
     "text": "护照",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "passport-sentence-1.wav",
     "text": "Please keep your passport in a safe place.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "passport-translation-1.wav",
     "text": "请把你的护照放在安全的地方。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "passport-sentence-2.wav",
     "text": "I asked about passport at the hotel front desk.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "passport-translation-2.wav",
     "text": "我在酒店前台询问了“护照”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "passport-sentence-3.wav",
     "text": "The travel app helped me find passport quickly.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "passport-translation-3.wav",
     "text": "旅行应用帮我很快找到和“护照”有关的信息。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-morning-word.wav",
     "text": "morning",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-morning-meaning.wav",
     "text": "早晨",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-morning-sentence-1.wav",
     "text": "I want to learn the word morning today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-morning-translation-1.wav",
     "text": "我今天想学习“早晨”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-morning-sentence-2.wav",
     "text": "I saw morning on my way home.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-morning-translation-2.wav",
     "text": "我回家路上看到了“早晨”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-morning-sentence-3.wav",
     "text": "Can you use morning in a real sentence?",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-morning-translation-3.wav",
     "text": "你能用“早晨”造一个真实句子吗？",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-evening-word.wav",
     "text": "evening",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-evening-meaning.wav",
     "text": "晚上",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-evening-sentence-1.wav",
     "text": "I want to learn the word evening today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-evening-translation-1.wav",
     "text": "我今天想学习“晚上”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-evening-sentence-2.wav",
     "text": "I saw evening on my way home.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-evening-translation-2.wav",
     "text": "我回家路上看到了“晚上”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-evening-sentence-3.wav",
     "text": "Can you use evening in a real sentence?",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-evening-translation-3.wav",
     "text": "你能用“晚上”造一个真实句子吗？",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-family-word.wav",
     "text": "family",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-family-meaning.wav",
     "text": "家庭",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-family-sentence-1.wav",
     "text": "I want to learn the word family today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-family-translation-1.wav",
     "text": "我今天想学习“家庭”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-family-sentence-2.wav",
     "text": "I saw family on my way home.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-family-translation-2.wav",
     "text": "我回家路上看到了“家庭”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-family-sentence-3.wav",
     "text": "Can you use family in a real sentence?",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-family-translation-3.wav",
     "text": "你能用“家庭”造一个真实句子吗？",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-friend-word.wav",
     "text": "friend",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-friend-meaning.wav",
     "text": "朋友",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-friend-sentence-1.wav",
     "text": "I want to learn the word friend today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-friend-translation-1.wav",
     "text": "我今天想学习“朋友”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-friend-sentence-2.wav",
     "text": "I saw friend on my way home.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-friend-translation-2.wav",
     "text": "我回家路上看到了“朋友”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-friend-sentence-3.wav",
     "text": "Can you use friend in a real sentence?",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-friend-translation-3.wav",
     "text": "你能用“朋友”造一个真实句子吗？",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-house-word.wav",
     "text": "house",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-house-meaning.wav",
     "text": "房子",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-house-sentence-1.wav",
     "text": "I want to learn the word house today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-house-translation-1.wav",
     "text": "我今天想学习“房子”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-house-sentence-2.wav",
     "text": "I saw house on my way home.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-house-translation-2.wav",
     "text": "我回家路上看到了“房子”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-house-sentence-3.wav",
     "text": "Can you use house in a real sentence?",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-house-translation-3.wav",
     "text": "你能用“房子”造一个真实句子吗？",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-phone-word.wav",
     "text": "phone",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-phone-meaning.wav",
     "text": "电话",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-phone-sentence-1.wav",
     "text": "I want to learn the word phone today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-phone-translation-1.wav",
     "text": "我今天想学习“电话”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-phone-sentence-2.wav",
     "text": "I saw phone on my way home.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-phone-translation-2.wav",
     "text": "我回家路上看到了“电话”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-phone-sentence-3.wav",
     "text": "Can you use phone in a real sentence?",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-phone-translation-3.wav",
     "text": "你能用“电话”造一个真实句子吗？",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-water-word.wav",
     "text": "water",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-water-meaning.wav",
     "text": "水",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-water-sentence-1.wav",
     "text": "I want to learn the word water today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-water-translation-1.wav",
     "text": "我今天想学习“水”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-water-sentence-2.wav",
     "text": "I saw water on my way home.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-water-translation-2.wav",
     "text": "我回家路上看到了“水”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-water-sentence-3.wav",
     "text": "Can you use water in a real sentence?",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-water-translation-3.wav",
     "text": "你能用“水”造一个真实句子吗？",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-weather-word.wav",
     "text": "weather",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-weather-meaning.wav",
     "text": "天气",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-weather-sentence-1.wav",
     "text": "I want to learn the word weather today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-weather-translation-1.wav",
     "text": "我今天想学习“天气”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-weather-sentence-2.wav",
     "text": "I saw weather on my way home.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-weather-translation-2.wav",
     "text": "我回家路上看到了“天气”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-weather-sentence-3.wav",
     "text": "Can you use weather in a real sentence?",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-weather-translation-3.wav",
     "text": "你能用“天气”造一个真实句子吗？",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-shop-word.wav",
     "text": "shop",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-shop-meaning.wav",
     "text": "商店",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-shop-sentence-1.wav",
     "text": "I want to learn the word shop today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-shop-translation-1.wav",
     "text": "我今天想学习“商店”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-shop-sentence-2.wav",
     "text": "I saw shop on my way home.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-shop-translation-2.wav",
     "text": "我回家路上看到了“商店”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-shop-sentence-3.wav",
     "text": "Can you use shop in a real sentence?",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-shop-translation-3.wav",
     "text": "你能用“商店”造一个真实句子吗？",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-money-word.wav",
     "text": "money",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-money-meaning.wav",
     "text": "钱",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-money-sentence-1.wav",
     "text": "I want to learn the word money today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-money-translation-1.wav",
     "text": "我今天想学习“钱”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-money-sentence-2.wav",
     "text": "I saw money on my way home.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-money-translation-2.wav",
     "text": "我回家路上看到了“钱”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-money-sentence-3.wav",
     "text": "Can you use money in a real sentence?",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-money-translation-3.wav",
     "text": "你能用“钱”造一个真实句子吗？",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-time-word.wav",
     "text": "time",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-time-meaning.wav",
     "text": "时间",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-time-sentence-1.wav",
     "text": "I want to learn the word time today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-time-translation-1.wav",
     "text": "我今天想学习“时间”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-time-sentence-2.wav",
     "text": "I saw time on my way home.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-time-translation-2.wav",
     "text": "我回家路上看到了“时间”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-time-sentence-3.wav",
     "text": "Can you use time in a real sentence?",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-time-translation-3.wav",
     "text": "你能用“时间”造一个真实句子吗？",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-question-word.wav",
     "text": "question",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-question-meaning.wav",
     "text": "问题",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-question-sentence-1.wav",
     "text": "I want to learn the word question today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-question-translation-1.wav",
     "text": "我今天想学习“问题”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-question-sentence-2.wav",
     "text": "I saw question on my way home.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-question-translation-2.wav",
     "text": "我回家路上看到了“问题”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "daily-question-sentence-3.wav",
     "text": "Can you use question in a real sentence?",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "daily-question-translation-3.wav",
     "text": "你能用“问题”造一个真实句子吗？",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-hotel-word.wav",
     "text": "hotel",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-hotel-meaning.wav",
     "text": "酒店",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-hotel-sentence-1.wav",
     "text": "I want to learn the word hotel today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-hotel-translation-1.wav",
     "text": "我今天想学习“酒店”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-hotel-sentence-2.wav",
     "text": "I asked about hotel at the hotel front desk.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-hotel-translation-2.wav",
     "text": "我在酒店前台询问了“酒店”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-hotel-sentence-3.wav",
     "text": "The travel app helped me find hotel quickly.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-hotel-translation-3.wav",
     "text": "旅行应用帮我很快找到和“酒店”有关的信息。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-train-word.wav",
     "text": "train",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-train-meaning.wav",
     "text": "火车",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-train-sentence-1.wav",
     "text": "I want to learn the word train today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-train-translation-1.wav",
     "text": "我今天想学习“火车”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-train-sentence-2.wav",
     "text": "I asked about train at the hotel front desk.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-train-translation-2.wav",
     "text": "我在酒店前台询问了“火车”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-train-sentence-3.wav",
     "text": "The travel app helped me find train quickly.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-train-translation-3.wav",
     "text": "旅行应用帮我很快找到和“火车”有关的信息。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-map-word.wav",
     "text": "map",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-map-meaning.wav",
     "text": "地图",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-map-sentence-1.wav",
     "text": "I want to learn the word map today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-map-translation-1.wav",
     "text": "我今天想学习“地图”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-map-sentence-2.wav",
     "text": "I asked about map at the hotel front desk.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-map-translation-2.wav",
     "text": "我在酒店前台询问了“地图”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-map-sentence-3.wav",
     "text": "The travel app helped me find map quickly.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-map-translation-3.wav",
     "text": "旅行应用帮我很快找到和“地图”有关的信息。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-bus-word.wav",
     "text": "bus",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-bus-meaning.wav",
     "text": "公交车",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-bus-sentence-1.wav",
     "text": "I want to learn the word bus today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-bus-translation-1.wav",
     "text": "我今天想学习“公交车”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-bus-sentence-2.wav",
     "text": "I asked about bus at the hotel front desk.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-bus-translation-2.wav",
     "text": "我在酒店前台询问了“公交车”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-bus-sentence-3.wav",
     "text": "The travel app helped me find bus quickly.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-bus-translation-3.wav",
     "text": "旅行应用帮我很快找到和“公交车”有关的信息。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-taxi-word.wav",
     "text": "taxi",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-taxi-meaning.wav",
     "text": "出租车",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-taxi-sentence-1.wav",
     "text": "I want to learn the word taxi today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-taxi-translation-1.wav",
     "text": "我今天想学习“出租车”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-taxi-sentence-2.wav",
     "text": "I asked about taxi at the hotel front desk.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-taxi-translation-2.wav",
     "text": "我在酒店前台询问了“出租车”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-taxi-sentence-3.wav",
     "text": "The travel app helped me find taxi quickly.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-taxi-translation-3.wav",
     "text": "旅行应用帮我很快找到和“出租车”有关的信息。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-platform-word.wav",
     "text": "platform",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-platform-meaning.wav",
     "text": "站台",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-platform-sentence-1.wav",
     "text": "I want to learn the word platform today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-platform-translation-1.wav",
     "text": "我今天想学习“站台”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-platform-sentence-2.wav",
     "text": "I asked about platform at the hotel front desk.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-platform-translation-2.wav",
     "text": "我在酒店前台询问了“站台”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-platform-sentence-3.wav",
     "text": "The travel app helped me find platform quickly.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-platform-translation-3.wav",
     "text": "旅行应用帮我很快找到和“站台”有关的信息。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-luggage-word.wav",
     "text": "luggage",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-luggage-meaning.wav",
     "text": "行李",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-luggage-sentence-1.wav",
     "text": "I want to learn the word luggage today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-luggage-translation-1.wav",
     "text": "我今天想学习“行李”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-luggage-sentence-2.wav",
     "text": "I asked about luggage at the hotel front desk.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-luggage-translation-2.wav",
     "text": "我在酒店前台询问了“行李”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-luggage-sentence-3.wav",
     "text": "The travel app helped me find luggage quickly.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-luggage-translation-3.wav",
     "text": "旅行应用帮我很快找到和“行李”有关的信息。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-gate-word.wav",
     "text": "gate",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-gate-meaning.wav",
     "text": "登机口",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-gate-sentence-1.wav",
     "text": "I want to learn the word gate today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-gate-translation-1.wav",
     "text": "我今天想学习“登机口”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-gate-sentence-2.wav",
     "text": "I asked about gate at the hotel front desk.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-gate-translation-2.wav",
     "text": "我在酒店前台询问了“登机口”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-gate-sentence-3.wav",
     "text": "The travel app helped me find gate quickly.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-gate-translation-3.wav",
     "text": "旅行应用帮我很快找到和“登机口”有关的信息。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-seat-word.wav",
     "text": "seat",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-seat-meaning.wav",
     "text": "座位",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-seat-sentence-1.wav",
     "text": "I want to learn the word seat today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-seat-translation-1.wav",
     "text": "我今天想学习“座位”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-seat-sentence-2.wav",
     "text": "I asked about seat at the hotel front desk.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-seat-translation-2.wav",
     "text": "我在酒店前台询问了“座位”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-seat-sentence-3.wav",
     "text": "The travel app helped me find seat quickly.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-seat-translation-3.wav",
     "text": "旅行应用帮我很快找到和“座位”有关的信息。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-arrive-word.wav",
     "text": "arrive",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-arrive-meaning.wav",
     "text": "到达",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-arrive-sentence-1.wav",
     "text": "I want to learn the word arrive today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-arrive-translation-1.wav",
     "text": "我今天想学习“到达”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-arrive-sentence-2.wav",
     "text": "I asked about arrive at the hotel front desk.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-arrive-translation-2.wav",
     "text": "我在酒店前台询问了“到达”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-arrive-sentence-3.wav",
     "text": "The travel app helped me find arrive quickly.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-arrive-translation-3.wav",
     "text": "旅行应用帮我很快找到和“到达”有关的信息。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-delay-word.wav",
     "text": "delay",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-delay-meaning.wav",
     "text": "延误",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-delay-sentence-1.wav",
     "text": "I want to learn the word delay today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-delay-translation-1.wav",
     "text": "我今天想学习“延误”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-delay-sentence-2.wav",
     "text": "I asked about delay at the hotel front desk.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-delay-translation-2.wav",
     "text": "我在酒店前台询问了“延误”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-delay-sentence-3.wav",
     "text": "The travel app helped me find delay quickly.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-delay-translation-3.wav",
     "text": "旅行应用帮我很快找到和“延误”有关的信息。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-border-word.wav",
     "text": "border",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-border-meaning.wav",
     "text": "边境",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-border-sentence-1.wav",
     "text": "I want to learn the word border today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-border-translation-1.wav",
     "text": "我今天想学习“边境”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-border-sentence-2.wav",
     "text": "I asked about border at the hotel front desk.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-border-translation-2.wav",
     "text": "我在酒店前台询问了“边境”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "travel-border-sentence-3.wav",
     "text": "The travel app helped me find border quickly.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "travel-border-translation-3.wav",
     "text": "旅行应用帮我很快找到和“边境”有关的信息。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-rice-word.wav",
     "text": "rice",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-rice-meaning.wav",
     "text": "米饭",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-rice-sentence-1.wav",
     "text": "I want to learn the word rice today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-rice-translation-1.wav",
     "text": "我今天想学习“米饭”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-rice-sentence-2.wav",
     "text": "I ordered rice for lunch today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-rice-translation-2.wav",
     "text": "我今天午餐点了“米饭”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-rice-sentence-3.wav",
     "text": "This restaurant serves fresh rice.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-rice-translation-3.wav",
     "text": "这家餐厅供应新鲜的“米饭”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-noodle-word.wav",
     "text": "noodle",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-noodle-meaning.wav",
     "text": "面条",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-noodle-sentence-1.wav",
     "text": "I want to learn the word noodle today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-noodle-translation-1.wav",
     "text": "我今天想学习“面条”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-noodle-sentence-2.wav",
     "text": "I ordered noodle for lunch today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-noodle-translation-2.wav",
     "text": "我今天午餐点了“面条”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-noodle-sentence-3.wav",
     "text": "This restaurant serves fresh noodle.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-noodle-translation-3.wav",
     "text": "这家餐厅供应新鲜的“面条”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-chicken-word.wav",
     "text": "chicken",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-chicken-meaning.wav",
     "text": "鸡肉",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-chicken-sentence-1.wav",
     "text": "I want to learn the word chicken today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-chicken-translation-1.wav",
     "text": "我今天想学习“鸡肉”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-chicken-sentence-2.wav",
     "text": "I ordered chicken for lunch today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-chicken-translation-2.wav",
     "text": "我今天午餐点了“鸡肉”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-chicken-sentence-3.wav",
     "text": "This restaurant serves fresh chicken.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-chicken-translation-3.wav",
     "text": "这家餐厅供应新鲜的“鸡肉”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-fish-word.wav",
     "text": "fish",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-fish-meaning.wav",
     "text": "鱼",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-fish-sentence-1.wav",
     "text": "I want to learn the word fish today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-fish-translation-1.wav",
     "text": "我今天想学习“鱼”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-fish-sentence-2.wav",
     "text": "I ordered fish for lunch today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-fish-translation-2.wav",
     "text": "我今天午餐点了“鱼”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-fish-sentence-3.wav",
     "text": "This restaurant serves fresh fish.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-fish-translation-3.wav",
     "text": "这家餐厅供应新鲜的“鱼”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-soup-word.wav",
     "text": "soup",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-soup-meaning.wav",
     "text": "汤",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-soup-sentence-1.wav",
     "text": "I want to learn the word soup today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-soup-translation-1.wav",
     "text": "我今天想学习“汤”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-soup-sentence-2.wav",
     "text": "I ordered soup for lunch today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-soup-translation-2.wav",
     "text": "我今天午餐点了“汤”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-soup-sentence-3.wav",
     "text": "This restaurant serves fresh soup.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-soup-translation-3.wav",
     "text": "这家餐厅供应新鲜的“汤”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-salad-word.wav",
     "text": "salad",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-salad-meaning.wav",
     "text": "沙拉",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-salad-sentence-1.wav",
     "text": "I want to learn the word salad today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-salad-translation-1.wav",
     "text": "我今天想学习“沙拉”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-salad-sentence-2.wav",
     "text": "I ordered salad for lunch today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-salad-translation-2.wav",
     "text": "我今天午餐点了“沙拉”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-salad-sentence-3.wav",
     "text": "This restaurant serves fresh salad.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-salad-translation-3.wav",
     "text": "这家餐厅供应新鲜的“沙拉”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-bread-word.wav",
     "text": "bread",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-bread-meaning.wav",
     "text": "面包",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-bread-sentence-1.wav",
     "text": "I want to learn the word bread today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-bread-translation-1.wav",
     "text": "我今天想学习“面包”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-bread-sentence-2.wav",
     "text": "I ordered bread for lunch today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-bread-translation-2.wav",
     "text": "我今天午餐点了“面包”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-bread-sentence-3.wav",
     "text": "This restaurant serves fresh bread.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-bread-translation-3.wav",
     "text": "这家餐厅供应新鲜的“面包”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-coffee-word.wav",
     "text": "coffee",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-coffee-meaning.wav",
     "text": "咖啡",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-coffee-sentence-1.wav",
     "text": "I want to learn the word coffee today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-coffee-translation-1.wav",
     "text": "我今天想学习“咖啡”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-coffee-sentence-2.wav",
     "text": "I ordered coffee for lunch today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-coffee-translation-2.wav",
     "text": "我今天午餐点了“咖啡”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-coffee-sentence-3.wav",
     "text": "This restaurant serves fresh coffee.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-coffee-translation-3.wav",
     "text": "这家餐厅供应新鲜的“咖啡”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-order-word.wav",
     "text": "order",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-order-meaning.wav",
     "text": "点餐",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-order-sentence-1.wav",
     "text": "I want to learn the word order today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-order-translation-1.wav",
     "text": "我今天想学习“点餐”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-order-sentence-2.wav",
     "text": "I ordered order for lunch today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-order-translation-2.wav",
     "text": "我今天午餐点了“点餐”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-order-sentence-3.wav",
     "text": "This restaurant serves fresh order.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-order-translation-3.wav",
     "text": "这家餐厅供应新鲜的“点餐”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-bill-word.wav",
     "text": "bill",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-bill-meaning.wav",
     "text": "账单",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-bill-sentence-1.wav",
     "text": "I want to learn the word bill today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-bill-translation-1.wav",
     "text": "我今天想学习“账单”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-bill-sentence-2.wav",
     "text": "I ordered bill for lunch today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-bill-translation-2.wav",
     "text": "我今天午餐点了“账单”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-bill-sentence-3.wav",
     "text": "This restaurant serves fresh bill.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-bill-translation-3.wav",
     "text": "这家餐厅供应新鲜的“账单”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-spicy-word.wav",
     "text": "spicy",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-spicy-meaning.wav",
     "text": "辣的",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-spicy-sentence-1.wav",
     "text": "I want to learn the word spicy today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-spicy-translation-1.wav",
     "text": "我今天想学习“辣的”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-spicy-sentence-2.wav",
     "text": "I ordered spicy for lunch today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-spicy-translation-2.wav",
     "text": "我今天午餐点了“辣的”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-spicy-sentence-3.wav",
     "text": "This restaurant serves fresh spicy.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-spicy-translation-3.wav",
     "text": "这家餐厅供应新鲜的“辣的”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-dessert-word.wav",
     "text": "dessert",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-dessert-meaning.wav",
     "text": "甜点",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-dessert-sentence-1.wav",
     "text": "I want to learn the word dessert today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-dessert-translation-1.wav",
     "text": "我今天想学习“甜点”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-dessert-sentence-2.wav",
     "text": "I ordered dessert for lunch today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-dessert-translation-2.wav",
     "text": "我今天午餐点了“甜点”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "food-dessert-sentence-3.wav",
     "text": "This restaurant serves fresh dessert.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "food-dessert-translation-3.wav",
     "text": "这家餐厅供应新鲜的“甜点”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-teacher-word.wav",
     "text": "teacher",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-teacher-meaning.wav",
     "text": "老师",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-teacher-sentence-1.wav",
     "text": "I want to learn the word teacher today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-teacher-translation-1.wav",
     "text": "我今天想学习“老师”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-teacher-sentence-2.wav",
     "text": "The teacher wrote teacher on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-teacher-translation-2.wav",
     "text": "老师把“老师”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-teacher-sentence-3.wav",
     "text": "I reviewed teacher before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-teacher-translation-3.wav",
     "text": "我上课前复习了“老师”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-student-word.wav",
     "text": "student",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-student-meaning.wav",
     "text": "学生",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-student-sentence-1.wav",
     "text": "I want to learn the word student today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-student-translation-1.wav",
     "text": "我今天想学习“学生”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-student-sentence-2.wav",
     "text": "The teacher wrote student on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-student-translation-2.wav",
     "text": "老师把“学生”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-student-sentence-3.wav",
     "text": "I reviewed student before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-student-translation-3.wav",
     "text": "我上课前复习了“学生”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-classroom-word.wav",
     "text": "classroom",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-classroom-meaning.wav",
     "text": "教室",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-classroom-sentence-1.wav",
     "text": "I want to learn the word classroom today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-classroom-translation-1.wav",
     "text": "我今天想学习“教室”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-classroom-sentence-2.wav",
     "text": "The teacher wrote classroom on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-classroom-translation-2.wav",
     "text": "老师把“教室”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-classroom-sentence-3.wav",
     "text": "I reviewed classroom before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-classroom-translation-3.wav",
     "text": "我上课前复习了“教室”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-book-word.wav",
     "text": "book",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-book-meaning.wav",
     "text": "书",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-book-sentence-1.wav",
     "text": "I want to learn the word book today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-book-translation-1.wav",
     "text": "我今天想学习“书”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-book-sentence-2.wav",
     "text": "The teacher wrote book on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-book-translation-2.wav",
     "text": "老师把“书”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-book-sentence-3.wav",
     "text": "I reviewed book before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-book-translation-3.wav",
     "text": "我上课前复习了“书”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-pencil-word.wav",
     "text": "pencil",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-pencil-meaning.wav",
     "text": "铅笔",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-pencil-sentence-1.wav",
     "text": "I want to learn the word pencil today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-pencil-translation-1.wav",
     "text": "我今天想学习“铅笔”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-pencil-sentence-2.wav",
     "text": "The teacher wrote pencil on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-pencil-translation-2.wav",
     "text": "老师把“铅笔”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-pencil-sentence-3.wav",
     "text": "I reviewed pencil before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-pencil-translation-3.wav",
     "text": "我上课前复习了“铅笔”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-test-word.wav",
     "text": "test",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-test-meaning.wav",
     "text": "测试",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-test-sentence-1.wav",
     "text": "I want to learn the word test today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-test-translation-1.wav",
     "text": "我今天想学习“测试”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-test-sentence-2.wav",
     "text": "The teacher wrote test on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-test-translation-2.wav",
     "text": "老师把“测试”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-test-sentence-3.wav",
     "text": "I reviewed test before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-test-translation-3.wav",
     "text": "我上课前复习了“测试”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-exam-word.wav",
     "text": "exam",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-exam-meaning.wav",
     "text": "考试",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-exam-sentence-1.wav",
     "text": "I want to learn the word exam today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-exam-translation-1.wav",
     "text": "我今天想学习“考试”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-exam-sentence-2.wav",
     "text": "The teacher wrote exam on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-exam-translation-2.wav",
     "text": "老师把“考试”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-exam-sentence-3.wav",
     "text": "I reviewed exam before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-exam-translation-3.wav",
     "text": "我上课前复习了“考试”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-subject-word.wav",
     "text": "subject",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-subject-meaning.wav",
     "text": "学科",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-subject-sentence-1.wav",
     "text": "I want to learn the word subject today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-subject-translation-1.wav",
     "text": "我今天想学习“学科”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-subject-sentence-2.wav",
     "text": "The teacher wrote subject on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-subject-translation-2.wav",
     "text": "老师把“学科”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-subject-sentence-3.wav",
     "text": "I reviewed subject before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-subject-translation-3.wav",
     "text": "我上课前复习了“学科”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-answer-word.wav",
     "text": "answer",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-answer-meaning.wav",
     "text": "答案",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-answer-sentence-1.wav",
     "text": "I want to learn the word answer today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-answer-translation-1.wav",
     "text": "我今天想学习“答案”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-answer-sentence-2.wav",
     "text": "The teacher wrote answer on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-answer-translation-2.wav",
     "text": "老师把“答案”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-answer-sentence-3.wav",
     "text": "I reviewed answer before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-answer-translation-3.wav",
     "text": "我上课前复习了“答案”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-library-word.wav",
     "text": "library",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-library-meaning.wav",
     "text": "图书馆",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-library-sentence-1.wav",
     "text": "I want to learn the word library today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-library-translation-1.wav",
     "text": "我今天想学习“图书馆”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-library-sentence-2.wav",
     "text": "The teacher wrote library on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-library-translation-2.wav",
     "text": "老师把“图书馆”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-library-sentence-3.wav",
     "text": "I reviewed library before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-library-translation-3.wav",
     "text": "我上课前复习了“图书馆”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-science-word.wav",
     "text": "science",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-science-meaning.wav",
     "text": "科学",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-science-sentence-1.wav",
     "text": "I want to learn the word science today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-science-translation-1.wav",
     "text": "我今天想学习“科学”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-science-sentence-2.wav",
     "text": "The teacher wrote science on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-science-translation-2.wav",
     "text": "老师把“科学”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-science-sentence-3.wav",
     "text": "I reviewed science before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-science-translation-3.wav",
     "text": "我上课前复习了“科学”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-history-word.wav",
     "text": "history",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-history-meaning.wav",
     "text": "历史",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-history-sentence-1.wav",
     "text": "I want to learn the word history today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-history-translation-1.wav",
     "text": "我今天想学习“历史”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-history-sentence-2.wav",
     "text": "The teacher wrote history on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-history-translation-2.wav",
     "text": "老师把“历史”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "school-history-sentence-3.wav",
     "text": "I reviewed history before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "school-history-translation-3.wav",
     "text": "我上课前复习了“历史”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-email-word.wav",
     "text": "email",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-email-meaning.wav",
     "text": "电子邮件",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-email-sentence-1.wav",
     "text": "I want to learn the word email today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-email-translation-1.wav",
     "text": "我今天想学习“电子邮件”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-email-sentence-2.wav",
     "text": "Please add email to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-email-translation-2.wav",
     "text": "请把“电子邮件”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-email-sentence-3.wav",
     "text": "Our team discussed email before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-email-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“电子邮件”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-office-word.wav",
     "text": "office",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-office-meaning.wav",
     "text": "办公室",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-office-sentence-1.wav",
     "text": "I want to learn the word office today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-office-translation-1.wav",
     "text": "我今天想学习“办公室”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-office-sentence-2.wav",
     "text": "Please add office to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-office-translation-2.wav",
     "text": "请把“办公室”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-office-sentence-3.wav",
     "text": "Our team discussed office before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-office-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“办公室”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-manager-word.wav",
     "text": "manager",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-manager-meaning.wav",
     "text": "经理",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-manager-sentence-1.wav",
     "text": "I want to learn the word manager today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-manager-translation-1.wav",
     "text": "我今天想学习“经理”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-manager-sentence-2.wav",
     "text": "Please add manager to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-manager-translation-2.wav",
     "text": "请把“经理”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-manager-sentence-3.wav",
     "text": "Our team discussed manager before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-manager-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“经理”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-report-word.wav",
     "text": "report",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-report-meaning.wav",
     "text": "报告",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-report-sentence-1.wav",
     "text": "I want to learn the word report today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-report-translation-1.wav",
     "text": "我今天想学习“报告”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-report-sentence-2.wav",
     "text": "Please add report to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-report-translation-2.wav",
     "text": "请把“报告”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-report-sentence-3.wav",
     "text": "Our team discussed report before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-report-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“报告”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-client-word.wav",
     "text": "client",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-client-meaning.wav",
     "text": "客户",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-client-sentence-1.wav",
     "text": "I want to learn the word client today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-client-translation-1.wav",
     "text": "我今天想学习“客户”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-client-sentence-2.wav",
     "text": "Please add client to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-client-translation-2.wav",
     "text": "请把“客户”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-client-sentence-3.wav",
     "text": "Our team discussed client before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-client-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“客户”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-deadline-word.wav",
     "text": "deadline",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-deadline-meaning.wav",
     "text": "截止日期",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-deadline-sentence-1.wav",
     "text": "I want to learn the word deadline today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-deadline-translation-1.wav",
     "text": "我今天想学习“截止日期”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-deadline-sentence-2.wav",
     "text": "Please add deadline to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-deadline-translation-2.wav",
     "text": "请把“截止日期”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-deadline-sentence-3.wav",
     "text": "Our team discussed deadline before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-deadline-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“截止日期”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-budget-word.wav",
     "text": "budget",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-budget-meaning.wav",
     "text": "预算",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-budget-sentence-1.wav",
     "text": "I want to learn the word budget today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-budget-translation-1.wav",
     "text": "我今天想学习“预算”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-budget-sentence-2.wav",
     "text": "Please add budget to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-budget-translation-2.wav",
     "text": "请把“预算”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-budget-sentence-3.wav",
     "text": "Our team discussed budget before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-budget-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“预算”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-contract-word.wav",
     "text": "contract",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-contract-meaning.wav",
     "text": "合同",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-contract-sentence-1.wav",
     "text": "I want to learn the word contract today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-contract-translation-1.wav",
     "text": "我今天想学习“合同”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-contract-sentence-2.wav",
     "text": "Please add contract to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-contract-translation-2.wav",
     "text": "请把“合同”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-contract-sentence-3.wav",
     "text": "Our team discussed contract before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-contract-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“合同”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-schedule-word.wav",
     "text": "schedule",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-schedule-meaning.wav",
     "text": "日程",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-schedule-sentence-1.wav",
     "text": "I want to learn the word schedule today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-schedule-translation-1.wav",
     "text": "我今天想学习“日程”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-schedule-sentence-2.wav",
     "text": "Please add schedule to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-schedule-translation-2.wav",
     "text": "请把“日程”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-schedule-sentence-3.wav",
     "text": "Our team discussed schedule before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-schedule-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“日程”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-task-word.wav",
     "text": "task",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-task-meaning.wav",
     "text": "任务",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-task-sentence-1.wav",
     "text": "I want to learn the word task today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-task-translation-1.wav",
     "text": "我今天想学习“任务”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-task-sentence-2.wav",
     "text": "Please add task to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-task-translation-2.wav",
     "text": "请把“任务”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-task-sentence-3.wav",
     "text": "Our team discussed task before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-task-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“任务”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-sales-word.wav",
     "text": "sales",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-sales-meaning.wav",
     "text": "销售",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-sales-sentence-1.wav",
     "text": "I want to learn the word sales today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-sales-translation-1.wav",
     "text": "我今天想学习“销售”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-sales-sentence-2.wav",
     "text": "Please add sales to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-sales-translation-2.wav",
     "text": "请把“销售”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-sales-sentence-3.wav",
     "text": "Our team discussed sales before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-sales-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“销售”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-team-word.wav",
     "text": "team",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-team-meaning.wav",
     "text": "团队",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-team-sentence-1.wav",
     "text": "I want to learn the word team today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-team-translation-1.wav",
     "text": "我今天想学习“团队”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-team-sentence-2.wav",
     "text": "Please add team to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-team-translation-2.wav",
     "text": "请把“团队”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-team-sentence-3.wav",
     "text": "Our team discussed team before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-team-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“团队”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-negotiate-word.wav",
     "text": "negotiate",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-negotiate-meaning.wav",
     "text": "谈判",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-negotiate-sentence-1.wav",
     "text": "I want to learn the word negotiate today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-negotiate-translation-1.wav",
     "text": "我今天想学习“谈判”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-negotiate-sentence-2.wav",
     "text": "Please add negotiate to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-negotiate-translation-2.wav",
     "text": "请把“谈判”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-negotiate-sentence-3.wav",
     "text": "Our team discussed negotiate before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-negotiate-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“谈判”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-prioritize-word.wav",
     "text": "prioritize",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-prioritize-meaning.wav",
     "text": "优先处理",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-prioritize-sentence-1.wav",
     "text": "I want to learn the word prioritize today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-prioritize-translation-1.wav",
     "text": "我今天想学习“优先处理”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-prioritize-sentence-2.wav",
     "text": "Please add prioritize to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-prioritize-translation-2.wav",
     "text": "请把“优先处理”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-prioritize-sentence-3.wav",
     "text": "Our team discussed prioritize before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-prioritize-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“优先处理”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-stakeholder-word.wav",
     "text": "stakeholder",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-stakeholder-meaning.wav",
     "text": "利益相关者",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-stakeholder-sentence-1.wav",
     "text": "I want to learn the word stakeholder today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-stakeholder-translation-1.wav",
     "text": "我今天想学习“利益相关者”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-stakeholder-sentence-2.wav",
     "text": "Please add stakeholder to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-stakeholder-translation-2.wav",
     "text": "请把“利益相关者”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-stakeholder-sentence-3.wav",
     "text": "Our team discussed stakeholder before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-stakeholder-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“利益相关者”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-implementation-word.wav",
     "text": "implementation",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-implementation-meaning.wav",
     "text": "实施",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-implementation-sentence-1.wav",
     "text": "I want to learn the word implementation today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-implementation-translation-1.wav",
     "text": "我今天想学习“实施”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-implementation-sentence-2.wav",
     "text": "Please add implementation to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-implementation-translation-2.wav",
     "text": "请把“实施”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-implementation-sentence-3.wav",
     "text": "Our team discussed implementation before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-implementation-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“实施”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-scalability-word.wav",
     "text": "scalability",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-scalability-meaning.wav",
     "text": "可扩展性",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-scalability-sentence-1.wav",
     "text": "I want to learn the word scalability today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-scalability-translation-1.wav",
     "text": "我今天想学习“可扩展性”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-scalability-sentence-2.wav",
     "text": "Please add scalability to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-scalability-translation-2.wav",
     "text": "请把“可扩展性”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-scalability-sentence-3.wav",
     "text": "Our team discussed scalability before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-scalability-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“可扩展性”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-bottleneck-word.wav",
     "text": "bottleneck",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-bottleneck-meaning.wav",
     "text": "瓶颈",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-bottleneck-sentence-1.wav",
     "text": "I want to learn the word bottleneck today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-bottleneck-translation-1.wav",
     "text": "我今天想学习“瓶颈”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-bottleneck-sentence-2.wav",
     "text": "Please add bottleneck to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-bottleneck-translation-2.wav",
     "text": "请把“瓶颈”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-bottleneck-sentence-3.wav",
     "text": "Our team discussed bottleneck before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-bottleneck-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“瓶颈”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-compliance-word.wav",
     "text": "compliance",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-compliance-meaning.wav",
     "text": "合规",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-compliance-sentence-1.wav",
     "text": "I want to learn the word compliance today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-compliance-translation-1.wav",
     "text": "我今天想学习“合规”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-compliance-sentence-2.wav",
     "text": "Please add compliance to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-compliance-translation-2.wav",
     "text": "请把“合规”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-compliance-sentence-3.wav",
     "text": "Our team discussed compliance before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-compliance-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“合规”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-incentive-word.wav",
     "text": "incentive",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-incentive-meaning.wav",
     "text": "激励措施",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-incentive-sentence-1.wav",
     "text": "I want to learn the word incentive today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-incentive-translation-1.wav",
     "text": "我今天想学习“激励措施”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-incentive-sentence-2.wav",
     "text": "Please add incentive to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-incentive-translation-2.wav",
     "text": "请把“激励措施”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-incentive-sentence-3.wav",
     "text": "Our team discussed incentive before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-incentive-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“激励措施”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-procurement-word.wav",
     "text": "procurement",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-procurement-meaning.wav",
     "text": "采购",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-procurement-sentence-1.wav",
     "text": "I want to learn the word procurement today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-procurement-translation-1.wav",
     "text": "我今天想学习“采购”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-procurement-sentence-2.wav",
     "text": "Please add procurement to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-procurement-translation-2.wav",
     "text": "请把“采购”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-procurement-sentence-3.wav",
     "text": "Our team discussed procurement before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-procurement-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“采购”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-feasibility-word.wav",
     "text": "feasibility",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-feasibility-meaning.wav",
     "text": "可行性",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-feasibility-sentence-1.wav",
     "text": "I want to learn the word feasibility today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-feasibility-translation-1.wav",
     "text": "我今天想学习“可行性”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-feasibility-sentence-2.wav",
     "text": "Please add feasibility to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-feasibility-translation-2.wav",
     "text": "请把“可行性”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "business-feasibility-sentence-3.wav",
     "text": "Our team discussed feasibility before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "business-feasibility-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“可行性”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-ambiguous-word.wav",
     "text": "ambiguous",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-ambiguous-meaning.wav",
     "text": "模棱两可的",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-ambiguous-sentence-1.wav",
     "text": "I want to learn the word ambiguous today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-ambiguous-translation-1.wav",
     "text": "我今天想学习“模棱两可的”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-ambiguous-sentence-2.wav",
     "text": "The teacher wrote ambiguous on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-ambiguous-translation-2.wav",
     "text": "老师把“模棱两可的”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-ambiguous-sentence-3.wav",
     "text": "I reviewed ambiguous before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-ambiguous-translation-3.wav",
     "text": "我上课前复习了“模棱两可的”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-coherent-word.wav",
     "text": "coherent",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-coherent-meaning.wav",
     "text": "连贯的",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-coherent-sentence-1.wav",
     "text": "I want to learn the word coherent today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-coherent-translation-1.wav",
     "text": "我今天想学习“连贯的”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-coherent-sentence-2.wav",
     "text": "The teacher wrote coherent on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-coherent-translation-2.wav",
     "text": "老师把“连贯的”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-coherent-sentence-3.wav",
     "text": "I reviewed coherent before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-coherent-translation-3.wav",
     "text": "我上课前复习了“连贯的”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-elaborate-word.wav",
     "text": "elaborate",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-elaborate-meaning.wav",
     "text": "详细说明",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-elaborate-sentence-1.wav",
     "text": "I want to learn the word elaborate today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-elaborate-translation-1.wav",
     "text": "我今天想学习“详细说明”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-elaborate-sentence-2.wav",
     "text": "The teacher wrote elaborate on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-elaborate-translation-2.wav",
     "text": "老师把“详细说明”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-elaborate-sentence-3.wav",
     "text": "I reviewed elaborate before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-elaborate-translation-3.wav",
     "text": "我上课前复习了“详细说明”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-interpretation-word.wav",
     "text": "interpretation",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-interpretation-meaning.wav",
     "text": "解释；理解",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-interpretation-sentence-1.wav",
     "text": "I want to learn the word interpretation today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-interpretation-translation-1.wav",
     "text": "我今天想学习“解释；理解”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-interpretation-sentence-2.wav",
     "text": "The teacher wrote interpretation on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-interpretation-translation-2.wav",
     "text": "老师把“解释；理解”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-interpretation-sentence-3.wav",
     "text": "I reviewed interpretation before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-interpretation-translation-3.wav",
     "text": "我上课前复习了“解释；理解”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-substantial-word.wav",
     "text": "substantial",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-substantial-meaning.wav",
     "text": "大量的；重要的",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-substantial-sentence-1.wav",
     "text": "I want to learn the word substantial today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-substantial-translation-1.wav",
     "text": "我今天想学习“大量的；重要的”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-substantial-sentence-2.wav",
     "text": "The teacher wrote substantial on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-substantial-translation-2.wav",
     "text": "老师把“大量的；重要的”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-substantial-sentence-3.wav",
     "text": "I reviewed substantial before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-substantial-translation-3.wav",
     "text": "我上课前复习了“大量的；重要的”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-inevitable-word.wav",
     "text": "inevitable",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-inevitable-meaning.wav",
     "text": "不可避免的",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-inevitable-sentence-1.wav",
     "text": "I want to learn the word inevitable today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-inevitable-translation-1.wav",
     "text": "我今天想学习“不可避免的”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-inevitable-sentence-2.wav",
     "text": "The teacher wrote inevitable on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-inevitable-translation-2.wav",
     "text": "老师把“不可避免的”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-inevitable-sentence-3.wav",
     "text": "I reviewed inevitable before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-inevitable-translation-3.wav",
     "text": "我上课前复习了“不可避免的”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-contradict-word.wav",
     "text": "contradict",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-contradict-meaning.wav",
     "text": "反驳；矛盾",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-contradict-sentence-1.wav",
     "text": "I want to learn the word contradict today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-contradict-translation-1.wav",
     "text": "我今天想学习“反驳；矛盾”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-contradict-sentence-2.wav",
     "text": "The teacher wrote contradict on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-contradict-translation-2.wav",
     "text": "老师把“反驳；矛盾”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-contradict-sentence-3.wav",
     "text": "I reviewed contradict before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-contradict-translation-3.wav",
     "text": "我上课前复习了“反驳；矛盾”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-comprehensive-word.wav",
     "text": "comprehensive",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-comprehensive-meaning.wav",
     "text": "全面的",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-comprehensive-sentence-1.wav",
     "text": "I want to learn the word comprehensive today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-comprehensive-translation-1.wav",
     "text": "我今天想学习“全面的”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-comprehensive-sentence-2.wav",
     "text": "The teacher wrote comprehensive on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-comprehensive-translation-2.wav",
     "text": "老师把“全面的”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-comprehensive-sentence-3.wav",
     "text": "I reviewed comprehensive before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-comprehensive-translation-3.wav",
     "text": "我上课前复习了“全面的”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-phenomenon-word.wav",
     "text": "phenomenon",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-phenomenon-meaning.wav",
     "text": "现象",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-phenomenon-sentence-1.wav",
     "text": "I want to learn the word phenomenon today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-phenomenon-translation-1.wav",
     "text": "我今天想学习“现象”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-phenomenon-sentence-2.wav",
     "text": "The teacher wrote phenomenon on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-phenomenon-translation-2.wav",
     "text": "老师把“现象”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-phenomenon-sentence-3.wav",
     "text": "I reviewed phenomenon before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-phenomenon-translation-3.wav",
     "text": "我上课前复习了“现象”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-sophisticated-word.wav",
     "text": "sophisticated",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-sophisticated-meaning.wav",
     "text": "复杂精细的",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-sophisticated-sentence-1.wav",
     "text": "I want to learn the word sophisticated today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-sophisticated-translation-1.wav",
     "text": "我今天想学习“复杂精细的”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-sophisticated-sentence-2.wav",
     "text": "The teacher wrote sophisticated on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-sophisticated-translation-2.wav",
     "text": "老师把“复杂精细的”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "exam-sophisticated-sentence-3.wav",
     "text": "I reviewed sophisticated before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "exam-sophisticated-translation-3.wav",
     "text": "我上课前复习了“复杂精细的”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-paradigm-word.wav",
     "text": "paradigm",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-paradigm-meaning.wav",
     "text": "范式",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-paradigm-sentence-1.wav",
     "text": "I want to learn the word paradigm today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-paradigm-translation-1.wav",
     "text": "我今天想学习“范式”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-paradigm-sentence-2.wav",
     "text": "The teacher wrote paradigm on the board.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-paradigm-translation-2.wav",
     "text": "老师把“范式”写在黑板上。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-paradigm-sentence-3.wav",
     "text": "I reviewed paradigm before class.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-paradigm-translation-3.wav",
     "text": "我上课前复习了“范式”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-nuance-word.wav",
     "text": "nuance",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-nuance-meaning.wav",
     "text": "细微差别",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-nuance-sentence-1.wav",
     "text": "I want to learn the word nuance today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-nuance-translation-1.wav",
     "text": "我今天想学习“细微差别”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-nuance-sentence-2.wav",
     "text": "I saw nuance on my way home.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-nuance-translation-2.wav",
     "text": "我回家路上看到了“细微差别”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-nuance-sentence-3.wav",
     "text": "Can you use nuance in a real sentence?",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-nuance-translation-3.wav",
     "text": "你能用“细微差别”造一个真实句子吗？",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-pragmatic-word.wav",
     "text": "pragmatic",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-pragmatic-meaning.wav",
     "text": "务实的",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-pragmatic-sentence-1.wav",
     "text": "I want to learn the word pragmatic today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-pragmatic-translation-1.wav",
     "text": "我今天想学习“务实的”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-pragmatic-sentence-2.wav",
     "text": "Please add pragmatic to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-pragmatic-translation-2.wav",
     "text": "请把“务实的”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-pragmatic-sentence-3.wav",
     "text": "Our team discussed pragmatic before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-pragmatic-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“务实的”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-meticulous-word.wav",
     "text": "meticulous",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-meticulous-meaning.wav",
     "text": "一丝不苟的",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-meticulous-sentence-1.wav",
     "text": "I want to learn the word meticulous today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-meticulous-translation-1.wav",
     "text": "我今天想学习“一丝不苟的”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-meticulous-sentence-2.wav",
     "text": "Please add meticulous to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-meticulous-translation-2.wav",
     "text": "请把“一丝不苟的”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-meticulous-sentence-3.wav",
     "text": "Our team discussed meticulous before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-meticulous-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“一丝不苟的”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-resilience-word.wav",
     "text": "resilience",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-resilience-meaning.wav",
     "text": "韧性；恢复力",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-resilience-sentence-1.wav",
     "text": "I want to learn the word resilience today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-resilience-translation-1.wav",
     "text": "我今天想学习“韧性；恢复力”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-resilience-sentence-2.wav",
     "text": "Please add resilience to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-resilience-translation-2.wav",
     "text": "请把“韧性；恢复力”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-resilience-sentence-3.wav",
     "text": "Our team discussed resilience before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-resilience-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“韧性；恢复力”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-implication-word.wav",
     "text": "implication",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-implication-meaning.wav",
     "text": "含义；影响",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-implication-sentence-1.wav",
     "text": "I want to learn the word implication today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-implication-translation-1.wav",
     "text": "我今天想学习“含义；影响”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-implication-sentence-2.wav",
     "text": "Please add implication to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-implication-translation-2.wav",
     "text": "请把“含义；影响”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-implication-sentence-3.wav",
     "text": "Our team discussed implication before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-implication-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“含义；影响”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-scrutiny-word.wav",
     "text": "scrutiny",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-scrutiny-meaning.wav",
     "text": "仔细审查",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-scrutiny-sentence-1.wav",
     "text": "I want to learn the word scrutiny today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-scrutiny-translation-1.wav",
     "text": "我今天想学习“仔细审查”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-scrutiny-sentence-2.wav",
     "text": "Please add scrutiny to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-scrutiny-translation-2.wav",
     "text": "请把“仔细审查”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-scrutiny-sentence-3.wav",
     "text": "Our team discussed scrutiny before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-scrutiny-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“仔细审查”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-subtle-word.wav",
     "text": "subtle",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-subtle-meaning.wav",
     "text": "微妙的",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-subtle-sentence-1.wav",
     "text": "I want to learn the word subtle today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-subtle-translation-1.wav",
     "text": "我今天想学习“微妙的”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-subtle-sentence-2.wav",
     "text": "I saw subtle on my way home.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-subtle-translation-2.wav",
     "text": "我回家路上看到了“微妙的”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-subtle-sentence-3.wav",
     "text": "Can you use subtle in a real sentence?",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-subtle-translation-3.wav",
     "text": "你能用“微妙的”造一个真实句子吗？",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-articulate-word.wav",
     "text": "articulate",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-articulate-meaning.wav",
     "text": "清楚表达",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-articulate-sentence-1.wav",
     "text": "I want to learn the word articulate today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-articulate-translation-1.wav",
     "text": "我今天想学习“清楚表达”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-articulate-sentence-2.wav",
     "text": "Please add articulate to the meeting notes.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-articulate-translation-2.wav",
     "text": "请把“清楚表达”加入会议记录。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-articulate-sentence-3.wav",
     "text": "Our team discussed articulate before the deadline.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-articulate-translation-3.wav",
     "text": "我们的团队在截止日期前讨论了“清楚表达”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-perspective-word.wav",
     "text": "perspective",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-perspective-meaning.wav",
     "text": "视角",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-perspective-sentence-1.wav",
     "text": "I want to learn the word perspective today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-perspective-translation-1.wav",
     "text": "我今天想学习“视角”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-perspective-sentence-2.wav",
     "text": "I saw perspective on my way home.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-perspective-translation-2.wav",
     "text": "我回家路上看到了“视角”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "advanced-perspective-sentence-3.wav",
     "text": "Can you use perspective in a real sentence?",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "advanced-perspective-translation-3.wav",
     "text": "你能用“视角”造一个真实句子吗？",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-cat-word.wav",
     "text": "cat",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-cat-meaning.wav",
     "text": "猫",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-cat-sentence-1.wav",
     "text": "I want to learn the word cat today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-cat-translation-1.wav",
     "text": "我今天想学习“猫”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-cat-sentence-2.wav",
     "text": "The child pointed to cat in the picture book.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-cat-translation-2.wav",
     "text": "孩子在图画书里指着“猫”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-cat-sentence-3.wav",
     "text": "We played a simple game with cat.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-cat-translation-3.wav",
     "text": "我们用“猫”玩了一个简单游戏。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-dog-word.wav",
     "text": "dog",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-dog-meaning.wav",
     "text": "狗",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-dog-sentence-1.wav",
     "text": "I want to learn the word dog today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-dog-translation-1.wav",
     "text": "我今天想学习“狗”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-dog-sentence-2.wav",
     "text": "The child pointed to dog in the picture book.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-dog-translation-2.wav",
     "text": "孩子在图画书里指着“狗”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-dog-sentence-3.wav",
     "text": "We played a simple game with dog.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-dog-translation-3.wav",
     "text": "我们用“狗”玩了一个简单游戏。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-bird-word.wav",
     "text": "bird",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-bird-meaning.wav",
     "text": "鸟",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-bird-sentence-1.wav",
     "text": "I want to learn the word bird today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-bird-translation-1.wav",
     "text": "我今天想学习“鸟”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-bird-sentence-2.wav",
     "text": "The child pointed to bird in the picture book.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-bird-translation-2.wav",
     "text": "孩子在图画书里指着“鸟”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-bird-sentence-3.wav",
     "text": "We played a simple game with bird.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-bird-translation-3.wav",
     "text": "我们用“鸟”玩了一个简单游戏。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-color-word.wav",
     "text": "color",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-color-meaning.wav",
     "text": "颜色",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-color-sentence-1.wav",
     "text": "I want to learn the word color today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-color-translation-1.wav",
     "text": "我今天想学习“颜色”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-color-sentence-2.wav",
     "text": "The child pointed to color in the picture book.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-color-translation-2.wav",
     "text": "孩子在图画书里指着“颜色”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-color-sentence-3.wav",
     "text": "We played a simple game with color.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-color-translation-3.wav",
     "text": "我们用“颜色”玩了一个简单游戏。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-red-word.wav",
     "text": "red",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-red-meaning.wav",
     "text": "红色",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-red-sentence-1.wav",
     "text": "I want to learn the word red today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-red-translation-1.wav",
     "text": "我今天想学习“红色”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-red-sentence-2.wav",
     "text": "The child pointed to red in the picture book.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-red-translation-2.wav",
     "text": "孩子在图画书里指着“红色”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-red-sentence-3.wav",
     "text": "We played a simple game with red.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-red-translation-3.wav",
     "text": "我们用“红色”玩了一个简单游戏。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-blue-word.wav",
     "text": "blue",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-blue-meaning.wav",
     "text": "蓝色",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-blue-sentence-1.wav",
     "text": "I want to learn the word blue today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-blue-translation-1.wav",
     "text": "我今天想学习“蓝色”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-blue-sentence-2.wav",
     "text": "The child pointed to blue in the picture book.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-blue-translation-2.wav",
     "text": "孩子在图画书里指着“蓝色”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-blue-sentence-3.wav",
     "text": "We played a simple game with blue.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-blue-translation-3.wav",
     "text": "我们用“蓝色”玩了一个简单游戏。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-yellow-word.wav",
     "text": "yellow",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-yellow-meaning.wav",
     "text": "黄色",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-yellow-sentence-1.wav",
     "text": "I want to learn the word yellow today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-yellow-translation-1.wav",
     "text": "我今天想学习“黄色”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-yellow-sentence-2.wav",
     "text": "The child pointed to yellow in the picture book.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-yellow-translation-2.wav",
     "text": "孩子在图画书里指着“黄色”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-yellow-sentence-3.wav",
     "text": "We played a simple game with yellow.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-yellow-translation-3.wav",
     "text": "我们用“黄色”玩了一个简单游戏。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-happy-word.wav",
     "text": "happy",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-happy-meaning.wav",
     "text": "开心的",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-happy-sentence-1.wav",
     "text": "I want to learn the word happy today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-happy-translation-1.wav",
     "text": "我今天想学习“开心的”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-happy-sentence-2.wav",
     "text": "The child pointed to happy in the picture book.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-happy-translation-2.wav",
     "text": "孩子在图画书里指着“开心的”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-happy-sentence-3.wav",
     "text": "We played a simple game with happy.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-happy-translation-3.wav",
     "text": "我们用“开心的”玩了一个简单游戏。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-small-word.wav",
     "text": "small",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-small-meaning.wav",
     "text": "小的",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-small-sentence-1.wav",
     "text": "I want to learn the word small today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-small-translation-1.wav",
     "text": "我今天想学习“小的”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-small-sentence-2.wav",
     "text": "The child pointed to small in the picture book.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-small-translation-2.wav",
     "text": "孩子在图画书里指着“小的”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-small-sentence-3.wav",
     "text": "We played a simple game with small.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-small-translation-3.wav",
     "text": "我们用“小的”玩了一个简单游戏。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-big-word.wav",
     "text": "big",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-big-meaning.wav",
     "text": "大的",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-big-sentence-1.wav",
     "text": "I want to learn the word big today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-big-translation-1.wav",
     "text": "我今天想学习“大的”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-big-sentence-2.wav",
     "text": "The child pointed to big in the picture book.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-big-translation-2.wav",
     "text": "孩子在图画书里指着“大的”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-big-sentence-3.wav",
     "text": "We played a simple game with big.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-big-translation-3.wav",
     "text": "我们用“大的”玩了一个简单游戏。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-game-word.wav",
     "text": "game",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-game-meaning.wav",
     "text": "游戏",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-game-sentence-1.wav",
     "text": "I want to learn the word game today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-game-translation-1.wav",
     "text": "我今天想学习“游戏”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-game-sentence-2.wav",
     "text": "The child pointed to game in the picture book.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-game-translation-2.wav",
     "text": "孩子在图画书里指着“游戏”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-game-sentence-3.wav",
     "text": "We played a simple game with game.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-game-translation-3.wav",
     "text": "我们用“游戏”玩了一个简单游戏。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-toy-word.wav",
     "text": "toy",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-toy-meaning.wav",
     "text": "玩具",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-toy-sentence-1.wav",
     "text": "I want to learn the word toy today.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-toy-translation-1.wav",
     "text": "我今天想学习“玩具”这个词。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-toy-sentence-2.wav",
     "text": "The child pointed to toy in the picture book.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-toy-translation-2.wav",
     "text": "孩子在图画书里指着“玩具”。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "kids-toy-sentence-3.wav",
     "text": "We played a simple game with toy.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   },
   {
     "file": "kids-toy-translation-3.wav",
     "text": "我们用“玩具”玩了一个简单游戏。",
-    "voice": "Microsoft Huihui Desktop"
+    "voice": "Piper Chinese"
   },
   {
     "file": "test-voice.wav",
     "text": "Hello, welcome to Word Garden.",
-    "voice": "Microsoft Zira Desktop"
+    "voice": "Piper English"
   }
 ]

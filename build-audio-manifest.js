@@ -1,8 +1,8 @@
 const fs = require("fs");
 
 const bank = JSON.parse(fs.readFileSync("word-bank.json", "utf8"));
-const enVoice = "Microsoft Zira Desktop";
-const zhVoice = "Microsoft Huihui Desktop";
+const enVoice = "Piper English";
+const zhVoice = "Piper Chinese";
 
 function levelDifficulty(level) {
   if (level === "C1") return 78;

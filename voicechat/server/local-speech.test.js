@@ -1,10 +1,26 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { sapiRate } from './local-speech.js';
+import { piperLengthScale, synthesizeLocalEnglish } from './local-speech.js';
 
-test('local speech maps playback speed to a bounded SAPI rate', () => {
-  assert.equal(sapiRate(1), 0);
-  assert.equal(sapiRate(0.75), -2);
-  assert.equal(sapiRate(1.5), 4);
-  assert.equal(sapiRate(99), 5);
+test('local speech maps playback speed to a bounded Piper length scale', () => {
+  assert.equal(piperLengthScale(1), 1);
+  assert.equal(piperLengthScale(0.5), 2);
+  assert.equal(piperLengthScale(2), 0.5);
+  assert.equal(piperLengthScale(99), 0.5);
+  assert.equal(piperLengthScale(0), 1);
+});
+
+test('local speech reports a configuration error without Piper', async () => {
+  const priorBinary = process.env.PIPER_BIN;
+  const priorModel = process.env.PIPER_VOICE_EN;
+  try {
+    process.env.PIPER_BIN = '';
+    process.env.PIPER_VOICE_EN = '';
+    await assert.rejects(synthesizeLocalEnglish('Practice sentence.'), /Piper is not configured/);
+  } finally {
+    if (priorBinary === undefined) delete process.env.PIPER_BIN;
+    else process.env.PIPER_BIN = priorBinary;
+    if (priorModel === undefined) delete process.env.PIPER_VOICE_EN;
+    else process.env.PIPER_VOICE_EN = priorModel;
+  }
 });

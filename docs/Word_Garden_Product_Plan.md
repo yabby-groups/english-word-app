@@ -34,7 +34,7 @@ Word Garden 是一个英语单词、例句、短文朗读和 AI 学习内容生�
 ### 2.3 朗读与 TTS
 
 - 支持本地离线音频播放。
-- 支持 Windows 本地 TTS。
+- 支持跨平台本地 Piper TTS。
 - 支持 OpenRouter/OpenAI 云端声音。
 - 短文朗读支持多级回退：
   1. 先尝试当前选择的云声音。
@@ -43,7 +43,7 @@ Word Garden 是一个英语单词、例句、短文朗读和 AI 学习内容生�
 - AI 例句页没有本地离线音频时，会通过 `/api/tts` 生成音频，不再误播不存在的 wav 文件。
 - 已新增 Piper TTS 支持方案：
   - 配置了 Piper 时，优先使用 Piper 本地神经 TTS。
-  - Piper 不可用时自动回退 Windows TTS。
+  - Piper 未配置或不可用时返回明确配置错误。
 
 ### 2.4 短文朗读和难词学习
 
@@ -144,16 +144,16 @@ Word Garden 是一个英语单词、例句、短文朗读和 AI 学习内容生�
 
 ### 5.1 为什么选择 Piper
 
-Piper 是轻量、开源、本地运行的神经 TTS，适合离线学习工具。相比 Windows 系统 TTS，它的声音通常更自然；相比云 TTS，它不依赖 Key，也不需要联网。
+Piper 是轻量、开源、本地运行的神经 TTS，适合离线学习工具。相比云 TTS，它不依赖 Key，也不需要联网。
 
 ### 5.2 推荐工作流
 
-1. 下载 Piper Windows 可执行文件。
+1. 下载适用于当前操作系统的 Piper 可执行文件。
 2. 下载英文 voice model，例如 `en_US-lessac-medium.onnx`。
 3. 放到项目目录：
 
 ```text
-tools/piper/piper.exe
+tools/piper/piper
 voices/en_US-lessac-medium.onnx
 voices/en_US-lessac-medium.onnx.json
 ```
@@ -161,9 +161,8 @@ voices/en_US-lessac-medium.onnx.json
 4. 配置 `.env`：
 
 ```text
-LOCAL_TTS_PROVIDER=auto
-PIPER_BIN=C:\tmp\english-word-app\tools\piper\piper.exe
-PIPER_VOICE_EN=C:\tmp\english-word-app\voices\en_US-lessac-medium.onnx
+PIPER_BIN=/absolute/path/to/piper
+PIPER_VOICE_EN=/absolute/path/to/en_US-lessac-medium.onnx
 ```
 
 5. 重启 `server.js`。
@@ -174,8 +173,7 @@ PIPER_VOICE_EN=C:\tmp\english-word-app\voices\en_US-lessac-medium.onnx
 
 1. 用户选择云声音时，先用 OpenRouter/OpenAI。
 2. 云失败时，尝试 Piper。
-3. Piper 失败时，尝试 Windows TTS。
-4. Windows TTS 失败时，尝试浏览器朗读。
+3. Piper 失败时，服务端返回可操作错误；页面上的浏览器原生朗读仍可作为交互朗读方案。
 
 ## 6. 墨水屏学生卡升级构想
 
@@ -360,4 +358,3 @@ crc32: ...
 - 增加 ePaper 包导出。
 - 购买一块墨水屏开发板做验证。
 - 规划手机 App 或 Web Bluetooth 技术路线。
-

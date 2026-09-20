@@ -22,7 +22,7 @@
 
 短文朗读需要本地 TTS 服务，不要用 `file://` 或普通静态服务打开。
 
-```powershell
+```sh
 node server.js
 ```
 
@@ -32,7 +32,7 @@ node server.js
 http://127.0.0.1:5174
 ```
 
-短文音频由 Windows `System.Speech.Synthesis.SpeechSynthesizer` 生成，英文默认 `Microsoft Zira Desktop`，中文默认 `Microsoft Huihui Desktop`。接口会返回生成耗时、是否命中缓存、音频地址。
+短文音频由本地 Piper TTS 生成。配置 `PIPER_BIN` 和对应语言的模型后，接口会返回生成耗时、是否命中缓存、音频地址；未配置时会返回明确的配置错误。详见 [PIPER_TTS.md](./PIPER_TTS.md)。
 
 整篇翻译是服务端 AI 能力。客户端只请求 `/api/translate`，模型 API Key 只放在服务端环境变量里，不暴露给用户浏览器。
 
@@ -49,27 +49,22 @@ TRANSLATE_PROVIDER=openai
 
 然后启动：
 
-```powershell
-.\start-server.ps1
+```sh
+node server.js
 ```
 
 服务端会返回 `usage` 和 `chargedTokens`，可用于用户 AI Token 扣费。
 
 服务端可接 LibreTranslate 兼容服务：
 
-```powershell
-$env:TRANSLATE_PROVIDER='libretranslate'
-$env:TRANSLATE_API_URL='http://127.0.0.1:5000/translate'
-node server.js
+```sh
+TRANSLATE_PROVIDER=libretranslate TRANSLATE_API_URL=http://127.0.0.1:5000/translate node server.js
 ```
 
 也可以接自定义服务：
 
-```powershell
-$env:TRANSLATE_PROVIDER='custom'
-$env:TRANSLATE_API_URL='https://your-server.example.com/translate'
-$env:TRANSLATE_API_KEY='server-side-secret'
-node server.js
+```sh
+TRANSLATE_PROVIDER=custom TRANSLATE_API_URL=https://your-server.example.com/translate TRANSLATE_API_KEY=server-side-secret node server.js
 ```
 
 未配置时，用户只会看到“翻译服务暂时不可用”，不会看到配置说明，也不会用词典拼接冒充整篇翻译。

@@ -1,47 +1,37 @@
 # Piper TTS Setup
 
-Piper is supported as the first local TTS option. When configured, `/api/tts` tries Piper first and falls back to Windows `System.Speech` if Piper is missing or fails.
+Piper is the service's local TTS engine. Configure a Piper executable and a voice model for every language that the server should synthesize.
 
 ## Install Layout
 
-Recommended local paths:
-
-```text
-C:\tmp\english-word-app\tools\piper\piper.exe
-C:\tmp\english-word-app\voices\en_US-lessac-medium.onnx
-C:\tmp\english-word-app\voices\en_US-lessac-medium.onnx.json
-```
-
-Download a Piper Windows release and one English voice model from the Piper project. Keep the `.onnx` and matching `.onnx.json` file together in `voices\`.
+Download a Piper release for your operating system and one or more voice models from the Piper project. Keep every `.onnx` file with its matching `.onnx.json` file.
 
 ## Configuration
 
 Add this to `.env`:
 
 ```text
-LOCAL_TTS_PROVIDER=auto
-PIPER_BIN=C:\tmp\english-word-app\tools\piper\piper.exe
-PIPER_VOICE_EN=C:\tmp\english-word-app\voices\en_US-lessac-medium.onnx
+PIPER_BIN=/absolute/path/to/piper
+PIPER_VOICE_EN=/absolute/path/to/en_US-lessac-medium.onnx
 ```
 
 Optional:
 
 ```text
-PIPER_VOICE_ZH=C:\tmp\english-word-app\voices\zh_CN-your-voice.onnx
+PIPER_VOICE_ZH=/absolute/path/to/zh_CN-your-voice.onnx
 PIPER_LENGTH_SCALE=1.0
 PIPER_NOISE_SCALE=
 PIPER_NOISE_W=
 ```
 
-If `PIPER_VOICE_ZH` is empty, Chinese text falls back to Windows TTS.
+English requests require `PIPER_VOICE_EN`; Chinese requests require `PIPER_VOICE_ZH`. The server returns a configuration error when the required Piper model is unavailable.
 
 ## Restart
 
 Restart the server after editing `.env`:
 
-```powershell
-$env:PORT='5182'
-node server.js
+```sh
+PORT=5182 node server.js
 ```
 
 Then open:
@@ -52,8 +42,10 @@ http://127.0.0.1:5182
 
 ## Test
 
-```powershell
-Invoke-WebRequest -UseBasicParsing -Method Post -Uri http://127.0.0.1:5182/api/tts -ContentType 'application/json' -Body '{"text":"Piper local voice test.","lang":"en-US"}'
+```sh
+curl -X POST http://127.0.0.1:5182/api/tts \
+  -H 'Content-Type: application/json' \
+  -d '{"text":"Piper local voice test.","lang":"en-US"}'
 ```
 
 The response should include:
@@ -65,4 +57,4 @@ The response should include:
 }
 ```
 
-If Piper is not configured or fails, the response should still succeed with Windows TTS unless Windows TTS is also unavailable.
+If Piper is not configured or fails, the response returns an error; configure a valid binary and model before retrying.
