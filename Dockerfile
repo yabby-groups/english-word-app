@@ -20,7 +20,7 @@ RUN set -eux; \
     rm -rf /var/lib/apt/lists/*; \
     mkdir -p /opt/piper /opt/piper/voices; \
     curl --fail --location --retry 3 \
-      "https://github.com/rhasspy/piper/releases/download/v${PIPER_VERSION}/piper_linux_x86_64.tar.gz" \
+      "https://github.com/rhasspy/piper/releases/download/v${PIPER_VERSION}/piper_amd64.tar.gz" \
       -o /tmp/piper.tar.gz; \
     tar -xzf /tmp/piper.tar.gz --strip-components=1 -C /opt/piper; \
     rm /tmp/piper.tar.gz; \
@@ -50,7 +50,7 @@ COPY --from=voicechat-build --chown=node:node /app/voicechat/dist ./voicechat/di
 
 RUN mkdir -p audio .tmp logs file-storage/local file-storage/cloud && chown -R node:node audio .tmp logs file-storage
 
-ENV PORT=5174 \
+ENV PORT=5182 \
     HOST=0.0.0.0 \
     PIPER_BIN=/opt/piper/piper \
     PIPER_VOICE_EN=/opt/piper/voices/en_US-lessac-medium.onnx \
@@ -60,9 +60,9 @@ ENV PORT=5174 \
 
 USER node
 
-EXPOSE 5174
+EXPOSE 5182
 VOLUME ["/app/audio", "/app/.tmp", "/app/logs", "/app/file-storage"]
 
-HEALTHCHECK --interval=30s --timeout=5s --start-period=15s --retries=3 CMD ["node", "-e", "const http=require('http');const port=process.env.PORT||5174;const request=http.get(`http://127.0.0.1:${port}/`,response=>process.exit(response.statusCode===200?0:1));request.on('error',()=>process.exit(1));request.setTimeout(4000,()=>request.destroy());"]
+HEALTHCHECK --interval=30s --timeout=5s --start-period=15s --retries=3 CMD ["node", "-e", "const http=require('http');const port=process.env.PORT||5182;const request=http.get(`http://127.0.0.1:${port}/`,response=>process.exit(response.statusCode===200?0:1));request.on('error',()=>process.exit(1));request.setTimeout(4000,()=>request.destroy());"]
 
 CMD ["node", "server.js"]
