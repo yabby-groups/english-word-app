@@ -32,6 +32,31 @@ node server.js
 http://127.0.0.1:5174
 ```
 
+## Docker
+
+Docker 镜像包含 Word Garden、`/voicechat/` 语音聊天界面、内部语音聊天 API，以及 Linux x86_64 的 Piper 和中英文 medium 语音模型。构建时需要能访问 GitHub 与 Hugging Face。
+
+```sh
+docker build -t word-garden .
+```
+
+运行时通过环境文件提供 API Key；不要把 `.env` 复制进镜像。以下命令会保留生成的音频、文件工作区和日志：
+
+```sh
+docker run --detach --name word-garden \
+  --publish 5174:5174 \
+  --env-file .env \
+  --env PORT=5174 \
+  --env HOST=0.0.0.0 \
+  --volume word-garden-audio:/app/audio \
+  --volume word-garden-tmp:/app/.tmp \
+  --volume word-garden-logs:/app/logs \
+  --volume word-garden-files:/app/file-storage \
+  word-garden
+```
+
+访问 `http://127.0.0.1:5174`，语音聊天位于 `/voicechat/`。镜像仅支持 Linux x86_64；容器默认使用内置 Piper 路径，可以用运行时环境变量覆盖模型或二进制路径。
+
 短文音频由本地 Piper TTS 生成。配置 `PIPER_BIN` 和对应语言的模型后，接口会返回生成耗时、是否命中缓存、音频地址；未配置时会返回明确的配置错误。详见 [PIPER_TTS.md](./PIPER_TTS.md)。
 
 整篇翻译是服务端 AI 能力。客户端只请求 `/api/translate`，模型 API Key 只放在服务端环境变量里，不暴露给用户浏览器。

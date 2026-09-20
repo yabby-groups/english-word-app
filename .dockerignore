@@ -1,0 +1,15 @@
+.env
+.env.*
+**/.env
+**/.env.*
+.git
+.gitignore
+node_modules
+voicechat/node_modules
+audio
+.tmp
+logs
+file-storage
+workspace
+*.rar
+*.zip
