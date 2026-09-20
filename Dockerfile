@@ -42,6 +42,9 @@ WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm ci --omit=dev
 
+COPY voicechat/package.json voicechat/package-lock.json ./voicechat/
+RUN npm ci --omit=dev --prefix ./voicechat
+
 COPY --chown=node:node . ./
 COPY --from=voicechat-build --chown=node:node /app/voicechat/dist ./voicechat/dist
 

@@ -2103,9 +2103,13 @@ function startVoiceChatService() {
         WEB_SEARCH_MAX_RESULTS: process.env.WEB_SEARCH_MAX_RESULTS || "5",
         WEB_SEARCH_TIMEOUT_MS: process.env.WEB_SEARCH_TIMEOUT_MS || "10000"
       },
-      stdio: "ignore"
+      stdio: ["ignore", "inherit", "inherit"]
     });
     voiceChatProcess.on("error", (error) => console.error(`Unable to start voicechat: ${error.message}`));
+    voiceChatProcess.on("exit", (code, signal) => {
+      voiceChatProcess = null;
+      console.error(`Voicechat service exited (code=${code}, signal=${signal || "none"}).`);
+    });
   });
 }
 
