@@ -1,0 +1,48 @@
+const DB_NAME = 'echo-practice-recordings';
+const STORE_NAME = 'recordings';
+const MAX_RECORDINGS = 20;
+
+type CachedRecording = { promptId: string; blob: Blob; savedAt: number };
+
+function openDatabase() {
+  return new Promise<IDBDatabase>((resolve, reject) => {
+    const request = indexedDB.open(DB_NAME, 1);
+    request.onupgradeneeded = () => {
+      const store = request.result.createObjectStore(STORE_NAME, { keyPath: 'promptId' });
+      store.createIndex('savedAt', 'savedAt');
+    };
+    request.onsuccess = () => resolve(request.result);
+    request.onerror = () => reject(request.error);
+  });
+}
+
+export async function loadRecording(promptId: string) {
+  const database = await openDatabase();
+  return new Promise<Blob | null>((resolve, reject) => {
+    const request = database.transaction(STORE_NAME, 'readonly').objectStore(STORE_NAME).get(promptId);
+    request.onsuccess = () => { database.close(); resolve((request.result as CachedRecording | undefined)?.blob || null); };
+    request.onerror = () => { database.close(); reject(request.error); };
+  });
+}
+
+export async function saveRecording(promptId: string, blob: Blob) {
+  const database = await openDatabase();
+  await new Promise<void>((resolve, reject) => {
+    const request = database.transaction(STORE_NAME, 'readwrite').objectStore(STORE_NAME).put({ promptId, blob, savedAt: Date.now() });
+    request.onsuccess = () => resolve();
+    request.onerror = () => reject(request.error);
+  });
+  const records = await new Promise<CachedRecording[]>((resolve, reject) => {
+    const request = database.transaction(STORE_NAME, 'readonly').objectStore(STORE_NAME).getAll();
+    request.onsuccess = () => resolve(request.result as CachedRecording[]);
+    request.onerror = () => reject(request.error);
+  });
+  const expired = records.sort((a, b) => b.savedAt - a.savedAt).slice(MAX_RECORDINGS);
+  if (expired.length) await new Promise<void>((resolve, reject) => {
+    const transaction = database.transaction(STORE_NAME, 'readwrite');
+    expired.forEach((record) => transaction.objectStore(STORE_NAME).delete(record.promptId));
+    transaction.oncomplete = () => resolve();
+    transaction.onerror = () => reject(transaction.error);
+  });
+  database.close();
+}

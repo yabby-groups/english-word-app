@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Garden</title>
+    <link rel="stylesheet" href="./styles.css?v=embedded-voicechat-1" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <aside class="sidebar" aria-label="study settings">
+        <div class="brand">
+          <div class="brand-mark">W</div>
+          <div>
+            <h1>Word Garden</h1>
+            <p>&#33521;&#35821;&#21333;&#35789;&#21644;&#20363;&#21477;&#23398;&#20064;</p>
+          </div>
+        </div>
+
+        <section class="panel compact">
+          <div class="panel-title">
+            <span>&#20170;&#26085;&#25512;&#33616;</span>
+            <strong id="todayCount">0</strong>
+          </div>
+          <div class="progress-track">
+            <div id="progressFill" class="progress-fill"></div>
+          </div>
+          <p id="progressText" class="muted">&#20934;&#22791;&#24320;&#22987;&#23398;&#20064;</p>
+        </section>
+
+        <section class="panel">
+          <div class="section-head"><h2>&#39046;&#22495;</h2></div>
+          <div id="topicList" class="topic-list"></div>
+          <label class="profile-row">
+            <span>&#23398;&#20064;&#35282;&#33394;</span>
+            <select id="profileSelect" class="select">
+              <option value="kids">&#20799;&#31461;&#21551;&#33945;</option>
+              <option value="starter">&#26085;&#24120;&#20837;&#38376;</option>
+              <option value="travel">&#26053;&#34892;&#23454;&#29992;</option>
+              <option value="business">&#32844;&#22330;&#21150;&#20844;</option>
+              <option value="exam">&#32771;&#35797;&#36827;&#38454;</option>
+              <option value="advanced">&#39640;&#38454;&#38405;&#35835;</option>
+            </select>
+          </label>
+          <label class="slider-row">
+            <span>&#26032;&#35789;&#38590;&#24230;</span>
+            <strong id="difficultyLabel">A1</strong>
+            <input id="difficultySlider" type="range" min="10" max="85" step="1" value="24" />
+          </label>
+          <button id="addRandomBtn" class="wide-button" type="button">
+            &#38543;&#26426;&#22686;&#21152; 12 &#20010;
+          </button>
+          <p id="addResult" class="add-result">&#25353;&#39046;&#22495;&#21644;&#38590;&#24230;&#22686;&#21152;&#26032;&#35789;</p>
+        </section>
+
+        <section class="panel">
+          <div class="section-head"><h2>&#22768;&#38899;</h2></div>
+          <div id="cloudVoiceButtons" class="voice-preset-grid" aria-label="cloud voice presets"></div>
+          <select id="voiceSelect" class="select" aria-label="All voices"></select>
+          <p id="voiceStatus" class="voice-status">&#27491;&#22312;&#20934;&#22791;&#31163;&#32447;&#22768;&#38899;...</p>
+          <div class="voice-buttons">
+            <button id="testVoiceBtn" class="ghost-button" type="button">&#35797;&#21548;</button>
+            <button id="refreshVoicesBtn" class="icon-button" type="button" aria-label="refresh voices">↻</button>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="section-head"><h2>&#24490;&#29615;</h2></div>
+          <label class="control-row">
+            <span>&#27599;&#39029;&#26391;&#35835;</span>
+            <input id="repeatInput" type="number" min="1" max="8" value="2" />
+          </label>
+          <label class="control-row">
+            <span>&#33258;&#21160;&#20999;&#25442;</span>
+            <input id="secondsInput" type="number" min="3" max="60" value="8" />
+          </label>
+          <label class="toggle-row">
+            <input id="autoPlayToggle" type="checkbox" />
+            <span>&#33258;&#21160;&#25773;&#25918;&#19979;&#19968;&#39029;</span>
+          </label>
+        </section>
+      </aside>
+
+      <section class="study-stage">
+        <header class="topbar">
+          <div>
+            <p id="modeLabel" class="eyebrow">&#20840;&#37096;&#39046;&#22495;</p>
+            <h2 id="deckTitle">&#20170;&#26085;&#23398;&#20064;</h2>
+          </div>
+          <div class="topbar-actions">
+            <button id="aiConversationBtn" class="ghost-button" type="button">AI &#23545;&#35805;</button>
+            <a class="ghost-button workspace-link" href="./workspace/files/">&#25991;&#20214;&#24037;&#20316;&#21306;</a>
+            <button id="recommendBtn" class="ghost-button" type="button">&#26234;&#33021;&#25512;&#33616;</button>
+            <button id="reviewBtn" class="ghost-button" type="button">&#22797;&#20064;&#20248;&#20808;</button>
+            <button id="cardSheetBtn" class="ghost-button" type="button">&#23398;&#20064;&#23567;&#32440;&#29255;</button>
+            <button id="masteredLibraryBtn" class="ghost-button" type="button">&#24050;&#25484;&#25569;&#24211;</button>
+            <a id="exportDataBtn" class="ghost-button workspace-link" href="./workspace/files/">&#22791;&#20221;</a>
+          </div>
+        </header>
+
+        <article class="word-card">
+          <div class="card-bg card-bg-one"></div>
+          <div class="card-bg card-bg-two"></div>
+          <div class="illustration" aria-hidden="true">
+            <div id="mascotFace" class="mascot">
+              <span class="mascot-eye left"></span>
+              <span class="mascot-eye right"></span>
+              <span class="mascot-mouth"></span>
+            </div>
+          </div>
+          <div class="word-content">
+            <div class="word-meta">
+              <span id="levelBadge" class="badge">A1</span>
+              <span id="topicBadge" class="badge soft">Daily</span>
+              <span id="rankBadge" class="badge soft">#1</span>
+            </div>
+            <h3 id="wordText">hello</h3>
+            <p id="phoneticText" class="phonetic">/hello/</p>
+            <p id="meaningText" class="meaning">&#20320;&#22909;</p>
+            <div class="sentence-box">
+              <p id="sentenceText">Hello, nice to meet you.</p>
+              <span id="translationText">&#20320;&#22909;&#65292;&#24456;&#39640;&#20852;&#35748;&#35782;&#20320;&#12290;</span>
+              <div id="examplesList" class="examples-list"></div>
+              <div id="examplePager" class="example-pager" aria-label="example pages">
+                <button id="prevExamplePageBtn" class="mini-button" type="button" aria-label="previous example page">&lt;</button>
+                <span id="examplePageLabel">Examples 1 / 1</span>
+                <button id="nextExamplePageBtn" class="mini-button" type="button" aria-label="next example page">&gt;</button>
+              </div>
+            </div>
+          </div>
+          <div class="card-actions">
+            <button id="prevBtn" class="round-button" type="button" aria-label="previous">‹</button>
+            <button id="playBtn" class="play-button" type="button">&#25773;&#25918;</button>
+            <button id="nextBtn" class="round-button" type="button" aria-label="next">›</button>
+          </div>
+        </article>
+
+        <section class="learning-actions" aria-label="study feedback">
+          <button id="knownBtn" class="status-button known" type="button">&#24050;&#25484;&#25569;</button>
+          <button id="completeBtn" class="status-button complete" type="button">100% &#23398;&#20250;</button>
+          <button id="repeatBtn" class="status-button repeat" type="button">&#38656;&#35201;&#22797;&#20064;</button>
+          <button id="favoriteBtn" class="status-button favorite" type="button">&#25910;&#34255;</button>
+          <button id="skipBtn" class="status-button skip" type="button">&#36339;&#36807;</button>
+          <button id="cardSheetInlineBtn" class="status-button print" type="button">&#29983;&#25104;&#23567;&#32440;&#29255;</button>
+          <button id="aiExamplesBtn" class="status-button ai-examples" type="button">AI &#20363;&#21477;</button>
+        </section>
+
+        <section class="insights">
+          <div class="stat"><span>&#20852;&#36259;&#39046;&#22495;</span><strong id="interestStat">Daily</strong></div>
+          <div class="stat"><span>&#25484;&#25569;&#24230;</span><strong id="masteryStat">0%</strong></div>
+          <div class="stat"><span>&#19979;&#27425;&#25512;&#33616;</span><strong id="nextStat">new</strong></div>
+        </section>
+
+        <section id="aiConversationPanel" class="voicechat-embed" aria-labelledby="aiConversationTitle">
+          <div class="voicechat-embed-head">
+            <div>
+              <strong id="aiConversationTitle">AI &#21452;&#35821;&#23545;&#35805;</strong>
+              <span>&#35821;&#38899;&#12289;&#25991;&#23383;&#12289;&#32842;&#22825;&#21644;&#33521;&#35821;&#23398;&#20064;</span>
+            </div>
+            <button id="reloadVoicechatBtn" class="icon-button" type="button" aria-label="&#37325;&#26032;&#21152;&#36733; AI &#23545;&#35805;">&#8635;</button>
+          </div>
+          <iframe id="voicechatFrame" class="voicechat-frame" src="./voicechat/" title="AI &#21452;&#35821;&#23545;&#35805;" allow="microphone; autoplay" loading="eager"></iframe>
+        </section>
+
+        <section id="masteredPanel" class="mastered-panel" hidden>
+          <div class="mastered-head">
+            <strong>&#24050;&#25484;&#25569;&#24211;</strong>
+            <span id="masteredCount">0</span>
+          </div>
+          <div id="masteredList" class="mastered-list"></div>
+        </section>
+
+        <section class="speech-translator" aria-labelledby="speechTranslatorTitle" hidden>
+          <div class="reader-head">
+            <div>
+              <strong id="speechTranslatorTitle">&#20013;&#25991;&#35821;&#38899;&#32763;&#35793;</strong>
+              <span>&#35828;&#20013;&#25991;&#65292;&#36716;&#25104;&#33258;&#28982;&#33521;&#25991;</span>
+            </div>
+            <button id="startSpeechBtn" class="speech-button" type="button" aria-label="&#24320;&#22987;&#35828;&#20013;&#25991;">&#127908; <span>&#35828;&#20013;&#25991;</span></button>
+          </div>
+          <label class="translator-field">
+            <span>&#20013;&#25991;</span>
+            <textarea id="chineseSpeechInput" rows="3" placeholder="&#28857;&#20987;&#35805;&#31570;&#35828;&#20013;&#25991;&#65292;&#25110;&#22312;&#36825;&#37324;&#36755;&#20837;..."></textarea>
+          </label>
+          <div class="translator-actions">
+            <button id="translateSpeechBtn" class="wide-button" type="button">&#32763;&#35793;&#25104;&#33521;&#25991;</button>
+            <button id="playTranslationBtn" class="ghost-button" type="button" disabled>&#9654; &#25773;&#25918;&#33521;&#25991;</button>
+          </div>
+          <div id="speechTranslationOutput" class="speech-translation-output" hidden></div>
+          <p id="speechTranslationStatus" class="add-result" aria-live="polite">&#28857;&#20987;&#35805;&#31570;&#24320;&#22987;&#24405;&#38899;&#65292;&#20877;&#27425;&#28857;&#20987;&#21487;&#32467;&#26463;&#12290;</p>
+        </section>
+
+        <section class="reader-panel">
+          <div class="reader-head">
+            <div>
+              <strong>&#30701;&#25991;&#26391;&#35835;</strong>
+              <span>&#31896;&#36148;&#33521;&#25991;&#65292;&#28857;&#20142;&#38590;&#35789;&#24182;&#21152;&#20837;&#33258;&#23450;&#20041;&#35789;&#24211;</span>
+            </div>
+            <button id="readTextBtn" class="ghost-button" type="button">&#26391;&#35835;&#30701;&#25991;</button>
+          </div>
+          <textarea id="readerInput" class="reader-input" rows="6" placeholder="Paste an English article or work email here..."></textarea>
+          <div class="reader-actions">
+            <button id="analyzeTextBtn" class="wide-button" type="button">&#20998;&#26512;&#38590;&#35789;</button>
+            <button id="translateTextBtn" class="ghost-button" type="button">&#32763;&#35793;&#25972;&#31687;</button>
+            <button id="addReaderWordsBtn" class="ghost-button" type="button">&#21152;&#20837;&#33258;&#23450;&#20041;&#35789;&#24211;</button>
+          </div>
+          <div id="readerAudioActions" class="reader-audio-actions" hidden>
+            <button id="playGeneratedBtn" class="ghost-button" type="button">&#25773;&#25918;&#29983;&#25104;&#38899;&#39057;</button>
+            <a id="downloadGeneratedLink" class="download-link" href="#" download>&#19979;&#36733; WAV</a>
+          </div>
+          <div id="readerOutput" class="reader-output"></div>
+          <div id="articleTranslation" class="article-translation" hidden></div>
+          <p id="readerStatus" class="add-result">&#33258;&#21160;&#39640;&#20142;&#39640;&#38590;&#24230;&#35789;&#65292;&#20063;&#21487;&#20197;&#25163;&#21160;&#28857;&#20987;&#35789;&#35821;&#12290;</p>
+        </section>
+
+        <section class="story-panel">
+          <div class="reader-head">
+            <div>
+              <strong>AI &#30561;&#21069;&#25925;&#20107;</strong>
+              <span>&#25353;&#24180;&#40836;&#12289;&#38590;&#24230;&#21644;&#20027;&#39064;&#29983;&#25104;&#21452;&#35821;&#25925;&#20107;</span>
+            </div>
+            <div class="story-buttons">
+              <button id="generateStoryBtn" class="ghost-button" type="button">&#29983;&#25104;&#25925;&#20107;</button>
+              <button id="playStoryBtn" class="ghost-button" type="button">&#25773;&#25918;&#25925;&#20107;</button>
+            </div>
+          </div>
+          <div class="story-controls">
+            <input id="storyAgeInput" class="select" value="6-8" aria-label="age range" />
+            <select id="storyLevelSelect" class="select">
+              <option>A1</option><option>A2</option><option>B1</option><option>B2</option>
+            </select>
+            <input id="storyThemeInput" class="select" value="space adventure" aria-label="story theme" />
+          </div>
+          <div id="storyOutput" class="article-translation" hidden></div>
+          <div id="storyHistory" class="story-history" hidden></div>
+          <p id="storyStatus" class="add-result">&#21487;&#29992;&#24403;&#21069;&#23398;&#20064;&#35789;&#29983;&#25104;&#25925;&#20107;&#65292;&#24182;&#35760;&#24405; AI Token &#28040;&#32791;&#12290;</p>
+        </section>
+
+        <section class="calendar-panel">
+          <div class="calendar-head">
+            <button id="prevMonthBtn" class="icon-button" type="button" aria-label="previous month">‹</button>
+            <strong id="calendarTitle">2026-06</strong>
+            <button id="nextMonthBtn" class="icon-button" type="button" aria-label="next month">›</button>
+          </div>
+          <div class="calendar-week">
+            <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+          </div>
+          <div id="calendarGrid" class="calendar-grid"></div>
+          <div id="calendarDetail" class="calendar-detail">&#28857;&#20987;&#26085;&#26399;&#26597;&#30475;&#24403;&#26085;&#23398;&#20064;&#21644;&#22797;&#20064;&#35789;&#12290;</div>
+        </section>
+      </section>
+    </main>
+
+    <div id="cardSheetModal" class="modal-backdrop" hidden>
+      <section class="card-sheet-modal" role="dialog" aria-modal="true" aria-labelledby="cardSheetTitle">
+        <div class="modal-head">
+          <div>
+            <p class="eyebrow">&#25171;&#21360;&#23398;&#20064;&#21345;</p>
+            <h2 id="cardSheetTitle">&#36817;&#20284;&#21333;&#35789;&#23567;&#32440;&#29255;</h2>
+          </div>
+          <button id="closeCardSheetBtn" class="icon-button" type="button" aria-label="close">x</button>
+        </div>
+        <div class="card-sheet-controls">
+          <label>
+            <span>&#26680;&#24515;&#21333;&#35789;</span>
+            <input id="cardSeedInput" class="select" placeholder="current word or your word" />
+          </label>
+          <label>
+            <span>&#29983;&#25104;&#26041;&#27861;</span>
+            <select id="cardRelationSelect" class="select">
+              <option value="mixed">&#21516;&#20027;&#39064; + &#25340;&#20889;&#30456;&#36817;</option>
+              <option value="topic">&#21516;&#20027;&#39064;&#36817;&#20284;&#35789;</option>
+              <option value="spelling">&#25340;&#20889;&#26131;&#28151;&#35789;</option>
+            </select>
+          </label>
+          <label>
+            <span>&#24352;&#25968;</span>
+            <input id="cardCountInput" class="select" type="number" min="4" max="24" value="10" />
+          </label>
+        </div>
+        <label class="custom-card-words">
+          <span>&#33258;&#23450;&#20041;&#29983;&#25104;</span>
+          <textarea id="customCardWordsInput" rows="3" placeholder="meeting, presentation, project..."></textarea>
+        </label>
+        <div class="modal-actions">
+          <button id="generateCardSheetBtn" class="wide-button" type="button">&#29983;&#25104; 10 &#24352;</button>
+          <button id="aiCardSheetBtn" class="ghost-button" type="button">AI &#29983;&#25104;</button>
+          <button id="useCurrentCardBtn" class="ghost-button" type="button">&#20351;&#29992;&#24403;&#21069;&#21333;&#35789;</button>
+          <button id="printCardSheetBtn" class="ghost-button" type="button">&#25171;&#21360;&#39044;&#35272;</button>
+        </div>
+        <p id="cardSheetStatus" class="add-result">&#20250;&#20174;&#24403;&#21069;&#35789;&#24211;&#37324;&#25214;&#21516;&#20027;&#39064;&#12289;&#21516;&#38590;&#24230;&#21644;&#25340;&#20889;&#30456;&#36817;&#30340;&#21333;&#35789;&#12290;</p>
+        <div id="cardSheetHistory" class="card-sheet-history" hidden>
+          <button id="prevAiCardSheetBtn" class="mini-button" type="button" aria-label="previous generated card sheet">&lt;</button>
+          <span id="aiCardSheetPageLabel">AI 0 / 0</span>
+          <button id="nextAiCardSheetBtn" class="mini-button" type="button" aria-label="next generated card sheet">&gt;</button>
+        </div>
+        <div id="cardSheetPreview" class="card-sheet-preview" aria-label="print card preview"></div>
+      </section>
+    </div>
+    <script src="./app.js?v=embedded-voicechat-1"></script>
+  </body>
+</html>

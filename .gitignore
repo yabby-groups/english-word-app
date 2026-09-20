@@ -1,0 +1,10 @@
+.env
+.env*
+.tmp
+file-storage
+*.wav
+*.log
+logs
+*.ps1
+*.cmd
+*.mp3
